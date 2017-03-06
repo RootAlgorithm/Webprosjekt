@@ -1,0 +1,1 @@
+Hei les meg fordi jeg er viktig, og hvis du bruker et eller flere av våre produkter så tilhører leveren din oss. 
