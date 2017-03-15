@@ -1,0 +1,218 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e9ec;
+}
+
+#container{
+    min-height: 100%;
+    position: relative;
+}
+
+#container *{
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+#fastHeader {
+    width: 100%;
+    height: 50px;
+    background-color: #0fa0e3;
+    position: fixed;
+    top: 0;
+}
+
+#litenHeader {
+    width: 100%;
+    height: 80px;
+    background-color: #111111;
+    top: 0;
+    margin-bottom: 5%;
+}
+
+.holder {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.holder *{
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#forsteBoxHoved {
+    height: 100%;
+    width: 65%;
+    background-color: #ffffff;
+    float: left;
+}
+
+#forsteBoxAndre {
+    height: 100%;
+    width: 30%;
+    background-color: #373b40;
+    float: right;
+}
+
+.boxShift {
+    height: 80px;
+    background-color: #ffffff;
+}
+
+#rabatter {
+    height: 800px;
+    background-color: #ffffff;
+}
+
+.boxModel {
+    height: 500px;
+}
+
+#andreBoxHoved {
+    height: 100%;
+    width: 65%;
+    background-color: #ffffff;
+    float: left;
+}
+
+#andreBoxAndre {
+    height: 100%;
+    width: 30%;
+    background-color: #ffffff;
+    float: right;
+}
+
+#footer {
+    height: 250px;
+    width: 100%;
+    background-color: #373b40;
+}
+
+#storBox {
+    background-color: #ffffff;
+    height: 1000px;
+}
+
+#boxShift1 {
+    width: 16%;
+    height: 100%;
+    float: left;
+    background-color: #0fa0e3;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#boxShift2 {
+    width: 28%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#boxShift3 {
+    width: 28%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#boxShift4 {
+    width: 28%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+#litenHeader * {
+    color: #a3aaa5;
+    text-align: center;
+}
+
+#litenHeaderFill {
+    width: 100%;
+    height: 50px;
+}
+
+.litenHeaderBox {
+    width: 33.3%;
+    height: 30px;
+    float: left;
+    bottom: 0;
+}
+
+#fastHeader *{
+    float: left;
+    height: 100%;
+}
+
+#logo {
+    width: 50px;
+}
+
+#logo:hover {
+    background-color: #0a72a2;
+}
+
+#knapp1 {
+    width: 20%;
+}
+
+#knapp1:hover {
+    background-color: #0a72a2;
+}
+
+#knapp2 {
+    width: 20%;
+}
+
+#knapp2:hover {
+    background-color: #0a72a2;
+}
+
+#knapp3 {
+    width: 20%;
+}
+
+#knapp3:hover {
+    background-color: #0a72a2;
+}
+
+#minSide {
+    float: right;
+    width: 10%;
+}
+
+#minSide:hover {
+    background-color: #0a72a2;
+}
+
+#loggInn {
+    float: right;
+    width: 10%;
+}
+
+#loggInn:hover {
+    background-color: #0a72a2;
+}
