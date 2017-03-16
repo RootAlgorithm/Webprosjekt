@@ -13,6 +13,11 @@
         $kul = "Ja!";
         echo $$andreas;
     ?>
+        
+        <?php
+        require 'config.php';
+        echo '<img src="'.$image_path.'header.png"/>';
+        ?>
         <div>
             <p>Nå har Andreas også vært innom.</p>
         </div>
