@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        
-        <link rel="stylesheet" type="text/css" href="studenttorget.css">
-
-        <title>New HMTL document by NewJect</title>
-
-    </head>
+    <?php require('includes/header.php'); ?>
     <body>
         <div id="container">
             
@@ -30,7 +19,7 @@
                 </div>
 
                 <div class="boxShift">
-                    <a href="studenttorget.html"><div id="boxShift1">Studiehjelper til unnsetning</div></a>
+                    <a href="studenttorget.php"><div id="boxShift1">Studiehjelper til unnsetning</div></a>
                     <div id="boxShift2">Vi hjelper deg med det du trenger hjelp til. Til og med studielån!</div>
                     <div id="boxShift3">Er livet hardt og vanskelig? Trenger du sårt en klem? Da er vi her til hjelp!</div>
                     <a href="http://lmgtfy.com/?q=dogs"><div id="boxShift4">Hunder and mer hunder. Kom og se, vi har mange hunder!</div></a>
@@ -52,14 +41,7 @@
                 <h1>Mer om oss</h1>
                 <h1>Joda</h1>
             </div>
-            <div id="fastHeader">
-                <div id="logo"><br>Logo</div>
-                <div id="knapp1"><br>Knapp 1</div>
-                <div id="knapp2"><br>Knapp 2</div>
-                <div id="knapp3"><br>Knapp 3</div>
-                <div id="loggInn">Logg <br> inn</div>
-                <div id="minSide">Min <br> Side</div>
-            </div>
+            <?php require('includes/fixedHeader.php'); ?>
         </div>
     </body>
 </html>
