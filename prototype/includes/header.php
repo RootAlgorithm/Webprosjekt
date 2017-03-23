@@ -7,6 +7,6 @@
 
     <link rel="stylesheet" type="text/css" href="studenttorget.css">
 
-    <title>New HMTL document by NewJect</title>
+    <title>Foreløpig prototype</title>
 
 </head>
