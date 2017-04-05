@@ -1,15 +1,15 @@
-<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="home.no" resolutions="1x" timestamp="1491379874707">
+<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="home.no" resolutions="1x" timestamp="1491382007955">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="master_a-master.css" crc="3868516783" ref="index:rabatter:nærområdet:på-campus:min-side"/>
-    <file name="index.css" crc="4120355184" ref="index"/>
+    <file name="index.css" crc="480829139" ref="index"/>
     <file name="rabatter.css" crc="340087099" ref="rabatter"/>
     <file name="master_b-master.css" crc="109277812" ref="registrering"/>
     <file name="n_romr_det.css" crc="4105626906" ref="nærområdet"/>
     <file name="p_-campus.css" crc="4097648729" ref="på-campus"/>
     <file name="registrering.css" crc="4057894576" ref="registrering"/>
     <file name="master_c-master.css" crc="3875976911" ref="login"/>
-    <file name="min-side.css" crc="110918872" ref="min-side"/>
+    <file name="min-side.css" crc="444892277" ref="min-side"/>
     <file name="login.css" crc="491468436" ref="login"/>
   </folder>
   <folder name="scripts">
@@ -19,12 +19,13 @@
     <file name="museconfig.js" crc="4179431180" ref="index:rabatter:nærområdet:på-campus:registrering:login:min-side"/>
     <file name="jquery.watch.js" crc="437028206" ref="index:rabatter:nærområdet:på-campus:registrering:login:min-side"/>
     <file name="require.js" crc="4159430777" ref="index:rabatter:nærområdet:på-campus:registrering:login:min-side"/>
-    <file name="webpro.js" crc="3986320349" ref="registrering:login"/>
-    <file name="form_check.php" crc="303648844" ref="registrering"/>
-    <file name="form_throttle.php" crc="236764551" ref="registrering"/>
-    <file name="form_process.php" crc="4272079531" ref="registrering"/>
+    <file name="webpro.js" crc="3986320349" ref="registrering:login:min-side"/>
+    <file name="form_check.php" crc="303648844" ref="registrering:min-side"/>
+    <file name="form_throttle.php" crc="236764551" ref="registrering:min-side"/>
+    <file name="form_process.php" crc="4272079531" ref="registrering:min-side"/>
     <file name="form-u1343.php" crc="4050192242" ref="registrering"/>
     <file name="form-u1740.php" crc="38027942" ref="login"/>
+    <file name="form-u1873.php" crc="322861896" ref="min-side"/>
   </folder>
   <folder name="images">
     <file name="st_1024.jpg" crc="405505797" seo="true" ref="index:rabatter:nærområdet:på-campus:registrering:login:min-side"/>
@@ -46,12 +47,13 @@
     <file name="bedrift3-crop-u610.png" crc="3950278149" ref="nærområdet"/>
     <file name="u1555.png" crc="54350083" ref="på-campus"/>
     <file name="campusfjerdingen-crop-u1652.jpg" crc="3943829030" ref="på-campus"/>
+    <file name="portrait-symbol.png" crc="3989186702" seo="true" ref="min-side"/>
   </folder>
-  <file name="index.html" crc="464524370" seo="true" mt="1490960827035" redirect="true"/>
+  <file name="index.html" crc="4215276450" seo="true" mt="1491380701590" redirect="true"/>
   <file name="rabatter.html" crc="3880048461" seo="true" mt="1490960894027" redirect="true"/>
-  <file name="nærområdet.html" crc="65034352" seo="true" mt="1490960954864" redirect="true"/>
+  <file name="nærområdet.html" crc="4031257780" seo="true" mt="1491381571940" redirect="true"/>
   <file name="på-campus.html" crc="3971549962" seo="true" mt="1490961012610" redirect="true"/>
   <file name="registrering.html" crc="3929021040" seo="true" mt="1490961836616" redirect="true"/>
   <file name="login.html" crc="347586721" seo="true" mt="1491379857552" redirect="true"/>
-  <file name="min-side.html" crc="4096483316" seo="true" mt="1491379721386" redirect="true"/>
+  <file name="min-side.html" crc="3938014055" seo="true" mt="1491381455312" redirect="true"/>
 </manifest>

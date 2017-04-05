@@ -2,18 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://home.no/index.html</loc>
-    <lastmod>2017-03-31</lastmod>
+    <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://home.no/rabatter.html</loc>
-    <lastmod>2017-03-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://home.no/n%C3%A6romr%C3%A5det.html</loc>
     <lastmod>2017-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -37,19 +31,31 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://home.no/n%C3%A6romr%C3%A5det.html</loc>
+    <lastmod>2017-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://home.no/p%C3%A5-campus.html</loc>
     <lastmod>2017-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://home.no/images/applerabatt.jpg</loc>
+    <loc>http://home.no/images/dustinhomerabatt.jpg</loc>
     <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://home.no/images/akerselva.jpg</loc>
+    <loc>http://home.no/images/portrait-symbol.png</loc>
+    <lastmod>2017-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://home.no/images/applerabatt.jpg</loc>
     <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -61,13 +67,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://home.no/images/dustinhomerabatt.jpg</loc>
+    <loc>http://home.no/images/peppes.jpg</loc>
     <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://home.no/images/peppes.jpg</loc>
+    <loc>http://home.no/images/akerselva.jpg</loc>
     <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
