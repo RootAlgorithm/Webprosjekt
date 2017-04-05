@@ -1,34 +1,38 @@
-<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="home.no" resolutions="1x" timestamp="1490894857821">
+<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="home.no" resolutions="1x" timestamp="1491379874707">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="master_a-master.css" crc="4097571950" ref="index:rabatter:nærområdet:på-campus"/>
-    <file name="index.css" crc="3827192510" ref="index"/>
-    <file name="rabatter.css" crc="4159865093" ref="rabatter"/>
-    <file name="master_b-master.css" crc="278659628" ref="registrering"/>
-    <file name="n_romr_det.css" crc="469510077" ref="nærområdet"/>
-    <file name="p_-campus.css" crc="375321736" ref="på-campus"/>
-    <file name="registrering.css" crc="3950129226" ref="registrering"/>
+    <file name="master_a-master.css" crc="3868516783" ref="index:rabatter:nærområdet:på-campus:min-side"/>
+    <file name="index.css" crc="4120355184" ref="index"/>
+    <file name="rabatter.css" crc="340087099" ref="rabatter"/>
+    <file name="master_b-master.css" crc="109277812" ref="registrering"/>
+    <file name="n_romr_det.css" crc="4105626906" ref="nærområdet"/>
+    <file name="p_-campus.css" crc="4097648729" ref="på-campus"/>
+    <file name="registrering.css" crc="4057894576" ref="registrering"/>
+    <file name="master_c-master.css" crc="3875976911" ref="login"/>
+    <file name="min-side.css" crc="110918872" ref="min-side"/>
+    <file name="login.css" crc="491468436" ref="login"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:rabatter:nærområdet:på-campus:registrering"/>
-    <file name="museutils.js" crc="4148063285" ref="index:rabatter:nærområdet:på-campus:registrering"/>
-    <file name="whatinput.js" crc="86476730" ref="index:rabatter:nærområdet:på-campus:registrering"/>
-    <file name="museconfig.js" crc="4179431180" ref="index:rabatter:nærområdet:på-campus:registrering"/>
-    <file name="jquery.watch.js" crc="437028206" ref="index:rabatter:nærområdet:på-campus:registrering"/>
-    <file name="require.js" crc="4159430777" ref="index:rabatter:nærområdet:på-campus:registrering"/>
-    <file name="webpro.js" crc="3986320349" ref="registrering"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:rabatter:nærområdet:på-campus:registrering:login:min-side"/>
+    <file name="museutils.js" crc="4148063285" ref="index:rabatter:nærområdet:på-campus:registrering:login:min-side"/>
+    <file name="whatinput.js" crc="86476730" ref="index:rabatter:nærområdet:på-campus:registrering:login:min-side"/>
+    <file name="museconfig.js" crc="4179431180" ref="index:rabatter:nærområdet:på-campus:registrering:login:min-side"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index:rabatter:nærområdet:på-campus:registrering:login:min-side"/>
+    <file name="require.js" crc="4159430777" ref="index:rabatter:nærområdet:på-campus:registrering:login:min-side"/>
+    <file name="webpro.js" crc="3986320349" ref="registrering:login"/>
     <file name="form_check.php" crc="303648844" ref="registrering"/>
     <file name="form_throttle.php" crc="236764551" ref="registrering"/>
     <file name="form_process.php" crc="4272079531" ref="registrering"/>
-    <file name="form-u1343.php" crc="4160798305" ref="registrering"/>
+    <file name="form-u1343.php" crc="4050192242" ref="registrering"/>
+    <file name="form-u1740.php" crc="38027942" ref="login"/>
   </folder>
   <folder name="images">
-    <file name="st_1024.jpg" crc="405505797" seo="true" ref="index:rabatter:nærområdet:på-campus:registrering"/>
+    <file name="st_1024.jpg" crc="405505797" seo="true" ref="index:rabatter:nærområdet:på-campus:registrering:login:min-side"/>
     <file name="akerselva.jpg" crc="4038376440" seo="true" ref="index"/>
     <file name="peppes.jpg" crc="4061065358" seo="true" ref="index"/>
     <file name="dustinhomerabatt.jpg" crc="150957356" seo="true" ref="rabatter"/>
     <file name="applerabatt.jpg" crc="35405476" seo="true" ref="rabatter"/>
-    <file name="u1558.png" crc="3998642700" ref="rabatter"/>
+    <file name="u1558.png" crc="4059872198" ref="rabatter"/>
     <file name="u1549.png" crc="3863640711" ref="nærområdet"/>
     <file name="atraksjon2-crop-u572.jpg" crc="3858995563" ref="nærområdet"/>
     <file name="blank.gif" crc="4208392903" ref="nærområdet"/>
@@ -43,9 +47,11 @@
     <file name="u1555.png" crc="54350083" ref="på-campus"/>
     <file name="campusfjerdingen-crop-u1652.jpg" crc="3943829030" ref="på-campus"/>
   </folder>
-  <file name="index.html" crc="119603244" seo="true" mt="1490893442440" redirect="true"/>
-  <file name="rabatter.html" crc="294374939" seo="true" mt="1490893442440" redirect="true"/>
-  <file name="nærområdet.html" crc="416983338" seo="true" mt="1490894189708" redirect="true"/>
-  <file name="på-campus.html" crc="3941301458" seo="true" mt="1490894555744" redirect="true"/>
-  <file name="registrering.html" crc="134885931" seo="true" mt="1490893481291" redirect="true"/>
+  <file name="index.html" crc="464524370" seo="true" mt="1490960827035" redirect="true"/>
+  <file name="rabatter.html" crc="3880048461" seo="true" mt="1490960894027" redirect="true"/>
+  <file name="nærområdet.html" crc="65034352" seo="true" mt="1490960954864" redirect="true"/>
+  <file name="på-campus.html" crc="3971549962" seo="true" mt="1490961012610" redirect="true"/>
+  <file name="registrering.html" crc="3929021040" seo="true" mt="1490961836616" redirect="true"/>
+  <file name="login.html" crc="347586721" seo="true" mt="1491379857552" redirect="true"/>
+  <file name="min-side.html" crc="4096483316" seo="true" mt="1491379721386" redirect="true"/>
 </manifest>
