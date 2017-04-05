@@ -43,11 +43,11 @@ $form = array(
 		'Email' => array(
 			'order' => 2,
 			'type' => 'email',
-			'label' => 'Endre e-post',
+			'label' => 'Endre E-post',
 			'required' => true,
 			'errors' => array(
-				'required' => 'Field \'Endre e-post\' is required.',
-				'format' => 'Field \'Endre e-post\' has an invalid email.'
+				'required' => 'Field \'Endre E-post\' is required.',
+				'format' => 'Field \'Endre E-post\' has an invalid email.'
 			)
 		),
 		'custom_U1996' => array(

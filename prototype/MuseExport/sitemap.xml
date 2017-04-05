@@ -7,25 +7,31 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://home.no/rabatter.html</loc>
-    <lastmod>2017-03-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://home.no/login.html</loc>
     <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://home.no/registrering.html</loc>
-    <lastmod>2017-03-31</lastmod>
+    <loc>http://home.no/min-side.html</loc>
+    <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://home.no/min-side.html</loc>
+    <loc>http://home.no/registrering.html</loc>
+    <lastmod>2017-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://home.no/p%C3%A5-campus.html</loc>
+    <lastmod>2017-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://home.no/rabatter.html</loc>
     <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -37,13 +43,25 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://home.no/p%C3%A5-campus.html</loc>
-    <lastmod>2017-03-31</lastmod>
+    <loc>http://home.no/images/enklerelivrabatt.jpg</loc>
+    <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://home.no/images/dustinhomerabatt.jpg</loc>
+    <loc>http://home.no/images/logo.png</loc>
+    <lastmod>2017-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://home.no/images/musikkforeningen.jpg</loc>
+    <lastmod>2017-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://home.no/images/peppes.jpg</loc>
     <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -61,19 +79,25 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://home.no/images/st_1024.jpg</loc>
+    <loc>http://home.no/images/dustinhomerabatt.jpg</loc>
     <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://home.no/images/peppes.jpg</loc>
+    <loc>http://home.no/images/arrangement2.jpg</loc>
     <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://home.no/images/akerselva.jpg</loc>
+    <lastmod>2017-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://home.no/images/stilling%20%C3%B8vingsl%C3%A6rer.jpg</loc>
     <lastmod>2017-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
