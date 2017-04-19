@@ -40,6 +40,12 @@ html, body {
     margin-right: 5%;
 }
 
+.header_link{
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+
 .card_container{    
     width: 95%;
     left: 0;
@@ -59,5 +65,47 @@ html, body {
     width: auto;
     height: auto;
     max-height: 500px;
-    max-width: 100%;
+    max-width: 100%;    
 }
+
+.innloggReg{
+    width: 50%;
+    margin:auto;
+    background-color: #7f7f7f;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
