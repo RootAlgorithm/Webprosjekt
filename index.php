@@ -1,23 +1,28 @@
+<?php
+
+
+
+?>
+
 <html>
 	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
 		<title>PHP Test</title>
 	</head>
 	<body>
-	<?php echo '<h1>Foreløpig testside</h1>'; ?>
-	<?php echo '<p>Om du ser dette så funker PHP greit på denne serveren</p><br>'; ?>
-	<?php echo '<p>Jeg jobber kontinuerlig med å få implementert et enkelt Content Management System (CMS)</p><br>'; ?>
-    <?php echo '<p>Prøver på nytt</p><br>'; ?>
+	<h1>Foreløpig testside</h1></br>
+	<p>Om du ser dette så funker PHP greit på denne serveren</p><br>
+	<p>Jeg jobber kontinuerlig med å få implementert et enkelt Content Management System (CMS)</p><br>
+    <p>Prøver på nytt</p><br>
         
-    <?php 
-        $andreas = 'kul';
-        $kul = "Ja!";
-        echo $$andreas;
-    ?>
+    
         
-        <?php
-        require 'config.php';
-        echo '<img src="'.$image_path.'header.png"/>';
-        ?>
+       
         <div>
             <p>Nå har Andreas også vært innom.</p>
         </div>
