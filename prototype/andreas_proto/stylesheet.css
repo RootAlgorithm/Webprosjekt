@@ -68,6 +68,14 @@ html, body {
     max-width: 100%;    
 }
 
+#main_body_top_img{
+    width: auto;
+    height: auto;
+    max-height: 300px;
+    max-width: 50%;
+    float: left;
+}
+
 .innloggReg{
     width: 50%;
     margin:auto;
@@ -109,3 +117,24 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+
+#main_body_top {
+    width: 90%;
+    margin: auto;
+}
+
+#main_body_top_text {
+    height: auto;
+}
+
+#omradet_main_body{
+    width: 90%;
+    margin: auto;
+}
+
+.omradet_card{
+    width: auto;
+    max-width: 25%;
+    padding: 2.5%;
+    float: left;
+}
