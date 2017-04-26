@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,8 +16,8 @@
     </head>
     <body>
 
-        <div>
-        
+        <div id="container">
+            <h1>Heia</h1>
         </div>
 
     </body>
