@@ -2,14 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://home.no/index.html</loc>
-    <lastmod>2017-04-19</lastmod>
+    <lastmod>2017-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
       <image:loc>http://home.no/images/logo.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://home.no/images/akerselva.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://home.no/images/peppes.jpg</image:loc>
@@ -18,78 +15,81 @@
       <image:loc>http://home.no/images/enklerelivrabatt.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/arrangement2.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://home.no/images/stilling%20%C3%B8vingsl%C3%A6rer.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://home.no/images/musikkforeningen.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/aktivietakerselva-crop-u2504.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/arangementoslo-filharmonien.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://home.no/rabatter.html</loc>
-    <lastmod>2017-04-19</lastmod>
+    <lastmod>2017-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
       <image:loc>http://home.no/images/logo.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/dustinhomerabatt.jpg</image:loc>
+      <image:loc>http://home.no/images/dustinhomerabatt-crop-u2466.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/applerabatt.jpg</image:loc>
+      <image:loc>http://home.no/images/applerabatt-crop-u2479.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://home.no/n%C3%A6romr%C3%A5det.html</loc>
-    <lastmod>2017-04-19</lastmod>
+    <lastmod>2017-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
       <image:loc>http://home.no/images/logo.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/atraksjon2-crop-u572.jpg</image:loc>
+      <image:loc>http://home.no/images/aktivitetbotaniskhage-crop-u572.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/atraksjon1-crop-u566.jpg</image:loc>
+      <image:loc>http://home.no/images/aktivietakerselva-crop-u566.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/atraksjon3-crop-u575.jpg</image:loc>
+      <image:loc>http://home.no/images/aktivitetkulturkirkenjacob-crop-u575.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/arrangement2-crop-u591.jpg</image:loc>
+      <image:loc>http://home.no/images/arangement%20oslo-filharmonien-crop-u591.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/arrangement1-crop-u590.jpg</image:loc>
+      <image:loc>http://home.no/images/arrangement%20knausg%C3%A5rd-crop-u590.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/arrangement3-crop-u592.jpg</image:loc>
+      <image:loc>http://home.no/images/arrangementemma-edvardutstilling-crop-u592.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/bedrift2-crop-u609.jpg</image:loc>
+      <image:loc>http://home.no/images/logo%20company%20s-crop-u609.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/bedrift1-crop-u608.jpg</image:loc>
+      <image:loc>http://home.no/images/logo%20company%20f.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/r%C3%B8dekorslogo-crop-u610.jpg</image:loc>
+      <image:loc>http://home.no/images/logo%20company%20a.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/ukens%20meny-crop-u2326.jpg</image:loc>
+      <image:loc>http://home.no/images/ukesmeny-crop-u2326.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/studentvenlige%20resteuranter-crop-u2324.jpg</image:loc>
+      <image:loc>http://home.no/images/studentvenligresteurant-crop-u2324.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/mattilunder100lappen-crop-u2328.jpg</image:loc>
+      <image:loc>http://home.no/images/middagunder100-lappen-crop-u2328.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://home.no/p%C3%A5-campus.html</loc>
-    <lastmod>2017-04-19</lastmod>
+    <lastmod>2017-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -128,7 +128,7 @@
   </url>
   <url>
     <loc>http://home.no/registrering.html</loc>
-    <lastmod>2017-04-19</lastmod>
+    <lastmod>2017-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -137,7 +137,7 @@
   </url>
   <url>
     <loc>http://home.no/login.html</loc>
-    <lastmod>2017-04-19</lastmod>
+    <lastmod>2017-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -146,7 +146,7 @@
   </url>
   <url>
     <loc>http://home.no/min-side.html</loc>
-    <lastmod>2017-04-19</lastmod>
+    <lastmod>2017-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -154,6 +154,177 @@
     </image:image>
     <image:image>
       <image:loc>http://home.no/images/portrait-symbol.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://home.no/home.html</loc>
+    <lastmod>2017-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://home.no/images/logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/akerselva.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/peppes.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/enklerelivrabatt.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/arrangement2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/stilling%20%C3%B8vingsl%C3%A6rer.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/musikkforeningen.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://home.no/min-side-copy.html</loc>
+    <lastmod>2017-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://home.no/images/logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/portrait-symbol.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://home.no/p%C3%A5-campus-copy.html</loc>
+    <lastmod>2017-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://home.no/images/logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/campusfjerdingen-crop-u2830.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/stilling%20studentbar-crop-u2838.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/stilling%20bibliotek-crop-u2822.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/stilling%20%C3%B8vingsl%C3%A6rer-crop-u2833.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/arangement%20fjerdingen%201-crop-u2841.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/arangement%20fjerdingen%202jpg-crop-u2819.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/arangement%20fjerdingen%203-crop-u2843.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/arangement%20fjerdingen-crop-u2828.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/musikkforeningen-crop-u2845.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/kit-crop-u2825.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://home.no/n%C3%A6romr%C3%A5det-copy.html</loc>
+    <lastmod>2017-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://home.no/images/logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/logo%20company%20f.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/logo%20company%20a.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/aktivitetbotaniskhage-crop-u2919.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/aktivietakerselva-crop-u2911.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/aktivitetkulturkirkenjacob-crop-u2923.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/arangement%20oslo-filharmonien-crop-u2933.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/arrangement%20knausg%C3%A5rd-crop-u2945.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/arrangementemma-edvardutstilling-crop-u2968.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/logo%20company%20s-crop-u2929.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/ukesmeny-crop-u2949.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/studentvenligresteurant-crop-u2940.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/middagunder100-lappen-crop-u2954.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://home.no/rabatter-copy.html</loc>
+    <lastmod>2017-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://home.no/images/logo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/dustinhomerabatt-crop-u3084.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/applerabatt-crop-u3089.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://home.no/home-v3.html</loc>
+    <lastmod>2017-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://home.no/images/logo_v2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/campusfjerdingen-crop-u3130.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/rabattsymbol-crop-u3203.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/skolesymbol-crop-u3212.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/geotag.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/minsidesymbol-crop-u3206.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/aktivietakerselva-crop-u3987.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/logocompanyf.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/rabattlaptop.png</image:loc>
     </image:image>
   </url>
 </urlset>
