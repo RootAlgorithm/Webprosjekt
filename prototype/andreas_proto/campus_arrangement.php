@@ -21,7 +21,7 @@
                 <div id="main_body_top">
                     <img id="main_body_top_img" src="http://boaeiendom.no/assets/boliger_images/96931-94502e4ffc6418c2a389c333ca8faa57-full/campus-fjerdingen-i-christian-kroghs-gate-32-av-westerdals-oslo-act.jpg">
                     <div id="main_body_top_text">
-                        <h1>Foreninger</h1>
+                        <h1>Arrangementer</h1>
                         <p>Tempor o laboris, mandaremus de nisi ingeniis. Veniam consequat quibusdam, 
                             appellat malis quibusdam in commodo lorem sunt incurreret elit, cillum sed 
                             laboris do quorum. Se tempor despicationes, veniam laboris ad senserit, pariatur 
@@ -39,11 +39,11 @@
             
             <div id="header_body">
                 <div id="header_innmat">
-                    <a href="index.html"><div class="header_link">Startside</div></a>
-                    <a href="rabatt.html"><div class="header_link">Rabatter</div></a>
-                    <a href="omradet.html"><div class="header_link">Området</div></a>
-                    <a href="campus.html"><div class="header_link">Om Campus</div></a>
-                    <a href="mineside_innlog.html"><div class="header_link">Min Side</div></a>
+                    <a href="index.php"><div class="header_link">Startside</div></a>
+                    <a href="rabatt.php"><div class="header_link">Rabatter</div></a>
+                    <a href="omradet.php"><div class="header_link">Området</div></a>
+                    <a href="campus.php"><div class="header_link">Om Campus</div></a>
+                    <a href="mineside_innlog.php"><div class="header_link">Min Side</div></a>
                 </div>
             </div>
             

@@ -18,12 +18,12 @@
             
             <div class="card_container">
                 <div class="card_body">
-                    <img class="card_body_img" src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg"></img>
+                    <img class="card_body_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQZ6m0ZmN6HNTQ2QYtdNZ0w6zidyGrL-YwZWlFAZ_KtMoqo4vT"></img>
                     <h1>RabattKatt</h1>
                     <p>Hei her en er en katt</p>
                     <p><b>Dato</b></p>
                 </div><div class="card_body">
-                    <img class="card_body_img" src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg"></img>
+                    <img class="card_body_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdRIofSCoGtYNhOjY8Eu_wZbLGmR1TJNEBvOWF59AUq7uVlhA_"></img>
                     <h1>RabattKatt</h1>
                     <p>Hei her en er en katt</p>
                     <p><b>Dato</b></p>
@@ -32,11 +32,11 @@
             
             <div id="header_body">
                 <div id="header_innmat">
-                    <a href="index.html"><div class="header_link">Startside</div></a>
-                    <a href="rabatt.html"><div class="header_link">Rabatter</div></a>
-                    <a href="omradet.html"><div class="header_link">Området</div></a>
-                    <a href="campus.html"><div class="header_link">Om Campus</div></a>
-                    <a href="mineside_innlog.html"><div class="header_link">Min Side</div></a>
+                    <a href="index.php"><div class="header_link">Startside</div></a>
+                    <a href="rabatt.php"><div class="header_link">Rabatter</div></a>
+                    <a href="omradet.php"><div class="header_link">Området</div></a>
+                    <a href="campus.php"><div class="header_link">Om Campus</div></a>
+                    <a href="mineside_innlog.php"><div class="header_link">Min Side</div></a>
                 </div>
             </div>
             

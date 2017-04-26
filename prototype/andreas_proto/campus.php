@@ -35,57 +35,57 @@
                 </div>
                 <div id="omradet_main_body">
                     <div id="omradet_main_body_holder">
-                        <a href="campus_stilling.html"><h1>Stillinger</h1></a>
+                        <a href="campus_stilling.php"><h1>Stillinger</h1></a>
                         <div class="omradet_card">
-                            <img class="card_body_img" src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg"></img>
+                            <img class="card_body_img" src="https://images-na.ssl-images-amazon.com/images/G/01/img15/pet-products/small-tiles/30423_pets-products_january-site-flip_3-cathealth_short-tile_592x304._CB286975940_.jpg"></img>
                             <h1>Ting 1</h1>
                             <p>Vet ikke</p>
                         </div>
                         <div class="omradet_card">
-                            <img class="card_body_img" src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg"></img>
+                            <img class="card_body_img" src="http://www.rd.com/wp-content/uploads/sites/2/2017/02/01-Funny-Cat-Videos-Are-Actually-Good-for-You-526709698-sdominick.jpg"></img>
                             <h1>Ting 2</h1>
                             <p>Vet ikke</p>
                         </div>
                         <div class="omradet_card">
-                            <img class="card_body_img" src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg"></img>
+                            <img class="card_body_img" src="http://r.ddmcdn.com/s_f/o_1/cx_0/cy_0/cw_300/ch_300/w_300/APL/uploads/2014/10/kitten-cuteness300.jpg"></img>
                             <h1>Ting 3</h1>
                             <p>Vet ikke</p>
                         </div>
                         
                     </div>
                     <div id="omradet_main_body_holder">
-                        <a href="campus_arrangement.html"><h1>Arrangementer</h1></a>
+                        <a href="campus_arrangement.php"><h1>Arrangementer</h1></a>
                         <div class="omradet_card">
-                            <img class="card_body_img" src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg"></img>
+                            <img class="card_body_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOug2bCo_ru6G6gu4GdPVpMQ9bDcZi8mc9HE8QG_8oq252E6-LOw"></img>
                             <h1>Ting 7</h1>
                             <p>Vet ikke</p>
                         </div>
                         <div class="omradet_card">
-                            <img class="card_body_img" src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg"></img>
+                            <img class="card_body_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYh1R8qA-akJf2XqmdUOgSblc1yzR91M5D4DVu3412a-DvekYyqg"></img>
                             <h1>Ting 8</h1>
                             <p>Vet ikke</p>
                         </div>
                         <div class="omradet_card">
-                            <img class="card_body_img" src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg"></img>
+                            <img class="card_body_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc7sITfgGcmALsB1y_X9uhjUSA2Ulg6e6it6yOjSSPMzEGMFXSoQ"></img>
                             <h1>Ting 9</h1>
                             <p>Vet ikke</p>
                         </div>
                         
                     </div>
                     <div id="omradet_main_body_holder">
-                        <a href="campus_forening.html"><h1>Foreninger</h1></a>
+                        <a href="campus_forening.php"><h1>Foreninger</h1></a>
                         <div class="omradet_card">
-                            <img class="card_body_img" src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg"></img>
+                            <img class="card_body_img" src="http://i.telegraph.co.uk/multimedia/archive/02474/cat-eyebrows-1_2474686k.jpg"></img>
                             <h1>Ting 13</h1>
                             <p>Vet ikke</p>
                         </div>
                         <div class="omradet_card">
-                            <img class="card_body_img" src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg"></img>
+                            <img class="card_body_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8xiC7or4ruuwCQ-BlALtcz3PDKyJjfrDYLkQ30fvZ_iifA9zy3g"></img>
                             <h1>Ting 14</h1>
                             <p>Vet ikke</p>
                         </div>
                         <div class="omradet_card">
-                            <img class="card_body_img" src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg"></img>
+                            <img class="card_body_img" src="https://static.independent.co.uk/s3fs-public/styles/article_large/public/thumbnails/image/2016/02/25/13/cat-getty_0.jpg"></img>
                             <h1>Ting 15</h1>
                             <p>Vet ikke</p>
                         </div>
@@ -97,11 +97,11 @@
             
             <div id="header_body">
                 <div id="header_innmat">
-                    <a href="index.html"><div class="header_link">Startside</div></a>
-                    <a href="rabatt.html"><div class="header_link">Rabatter</div></a>
-                    <a href="omradet.html"><div class="header_link">Området</div></a>
-                    <a href="campus.html"><div class="header_link">Om Campus</div></a>
-                    <a href="mineside_innlog.html"><div class="header_link">Min Side</div></a>
+                    <a href="index.php"><div class="header_link">Startside</div></a>
+                    <a href="rabatt.php"><div class="header_link">Rabatter</div></a>
+                    <a href="omradet.php"><div class="header_link">Området</div></a>
+                    <a href="campus.php"><div class="header_link">Om Campus</div></a>
+                    <a href="mineside_innlog.php"><div class="header_link">Min Side</div></a>
                 </div>
             </div>
             
