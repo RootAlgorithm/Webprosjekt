@@ -18,8 +18,8 @@
 	<body>
 	<h1>Foreløpig testside</h1></br>
 	<p>Om du ser dette så funker PHP greit på denne serveren</p><br>
-	<p>Jeg jobber kontinuerlig med å få implementert et enkelt Content Management System (CMS)</p><br>
-    <p>Prøver på nytt</p><br>
+	<p></p><br>
+    	<p></p><br>
         
     
         
