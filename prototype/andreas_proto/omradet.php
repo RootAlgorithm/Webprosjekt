@@ -15,19 +15,16 @@
         <div id="container">
             
             <div id="header_under"></div>
-                
-            <div id="minside">
-                
-                
-            </div>
+            
+            
             
             <div id="header_body">
                 <div id="header_innmat">
-                    <a href="index.html"><div class="header_link">Startside</div></a>
-                    <a href="rabatt.html"><div class="header_link">Rabatter</div></a>
-                    <a href="omradet.html"><div class="header_link">Området</div></a>
-                    <a href="campus.html"><div class="header_link">Om Campus</div></a>
-                    <a href="mineside_innlog.html"><div class="header_link">Min Side</div></a>
+                    <a href="index.php"><div class="header_link">Startside</div></a>
+                    <a href="rabatt.php"><div class="header_link">Rabatter</div></a>
+                    <a href="omradet.php"><div class="header_link">Området</div></a>
+                    <a href="campus.php"><div class="header_link">Om Campus</div></a>
+                    <a href="mineside_innlog.php"><div class="header_link">Min Side</div></a>
                 </div>
             </div>
             

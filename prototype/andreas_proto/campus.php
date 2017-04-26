@@ -35,7 +35,7 @@
                 </div>
                 <div id="omradet_main_body">
                     <div id="omradet_main_body_holder">
-                        <a href="campus_stilling.html"><h1>Stillinger</h1></a>
+                        <a href="campus_stilling.php"><h1>Stillinger</h1></a>
                         <div class="omradet_card">
                             <img class="card_body_img" src="https://images-na.ssl-images-amazon.com/images/G/01/img15/pet-products/small-tiles/30423_pets-products_january-site-flip_3-cathealth_short-tile_592x304._CB286975940_.jpg"></img>
                             <h1>Ting 1</h1>
@@ -54,7 +54,7 @@
                         
                     </div>
                     <div id="omradet_main_body_holder">
-                        <a href="campus_arrangement.html"><h1>Arrangementer</h1></a>
+                        <a href="campus_arrangement.php"><h1>Arrangementer</h1></a>
                         <div class="omradet_card">
                             <img class="card_body_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOug2bCo_ru6G6gu4GdPVpMQ9bDcZi8mc9HE8QG_8oq252E6-LOw"></img>
                             <h1>Ting 7</h1>
@@ -73,7 +73,7 @@
                         
                     </div>
                     <div id="omradet_main_body_holder">
-                        <a href="campus_forening.html"><h1>Foreninger</h1></a>
+                        <a href="campus_forening.php"><h1>Foreninger</h1></a>
                         <div class="omradet_card">
                             <img class="card_body_img" src="http://i.telegraph.co.uk/multimedia/archive/02474/cat-eyebrows-1_2474686k.jpg"></img>
                             <h1>Ting 13</h1>
@@ -97,11 +97,11 @@
             
             <div id="header_body">
                 <div id="header_innmat">
-                    <a href="index.html"><div class="header_link">Startside</div></a>
-                    <a href="rabatt.html"><div class="header_link">Rabatter</div></a>
-                    <a href="omradet.html"><div class="header_link">Området</div></a>
-                    <a href="campus.html"><div class="header_link">Om Campus</div></a>
-                    <a href="mineside_innlog.html"><div class="header_link">Min Side</div></a>
+                    <a href="index.php"><div class="header_link">Startside</div></a>
+                    <a href="rabatt.php"><div class="header_link">Rabatter</div></a>
+                    <a href="omradet.php"><div class="header_link">Området</div></a>
+                    <a href="campus.php"><div class="header_link">Om Campus</div></a>
+                    <a href="mineside_innlog.php"><div class="header_link">Min Side</div></a>
                 </div>
             </div>
             
