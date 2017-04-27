@@ -15,12 +15,13 @@
 .slidertext
 {
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 32px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
     text-align: center;
+    color: white;
 }
 
 .previousSlide, .nextSlide
@@ -33,7 +34,7 @@
     padding: 16px;
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
 }
