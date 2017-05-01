@@ -13,8 +13,9 @@ class Slide extends Model
 {
     protected $primaryKey = 'id';
     protected $fillable = [
-        'text',
-        'img'
+        'img',
+        'title',
+        'text'
     ];
     public $timestamps = false;
 }

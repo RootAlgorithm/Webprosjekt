@@ -10,30 +10,6 @@
 require "includes/header.php";
 ?>
 
-
-<!-- Slideshow -->
-<?php
-
-if(!$slides->isEmpty())
-{ ?>
-
-<div class="slideshowContainer">
-
-    <?php
-
-        foreach ($slides as $slide)
-        {
-            require "includes/slideshow.php";
-        }
-    ?>
-
-    <a class="previousSlide" onclick="slidesFunction(-1)">&#10094;</a>
-    <a class="nextSlide" onclick="slidesFunction(1)">&#10095;</a>
-    <script src="includes/slideshow.js"></script>
-</div>
-
-<?php } ?>
-
 <!-- Main window -->
 
     <div id="container">
@@ -49,14 +25,25 @@ if(!$slides->isEmpty())
         </div>
 
         <div id="index_main_body">
-            <div id="index_main_body_top">
-                <img id="index_main_body_top_img" src="Bilder/campusfjerdingen-crop-u3130.jpg">
-                <h1 class="index_main_body_top_text"><span class="span_text">Velkommen til Westedals studentinfo</span></h1>
-                <p class="index_main_body_top_text"><span class="span_text">Her finner du informasjon relatert til studenter hos Westerdals
-                        ved Campus Fjerdingen. <br/>Du vil finne flotte rabatter, tips,
-                        arrangementer og mye mer!</span></p>
+            <?php
 
-            </div>
+            if (!$slides->isEmpty())
+            {
+
+            foreach ($slides as $slide)
+            {
+                require "includes/slideshow.php";
+            }
+
+            ?>
+
+            <a class="previousSlide" onclick="slidesFunction(-1)">&#10094;</a>
+            <a class="nextSlide" onclick="slidesFunction(1)">&#10095;</a>
+            <script src="includes/slideshow.js"></script>
+
+            <?php } ?>
+
+
             <div id="index_main_body_lesmer">
                 <div class="index_main_body_lesmercard">
                     <img src="Bilder/rabattsymbol-crop-u3203.png">
