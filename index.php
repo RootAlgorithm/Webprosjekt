@@ -4,29 +4,23 @@
 
 
     $slides = Slide::all();
+    ?>
+
+<?php
+require "includes/header.php";
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="stylesheet" type="text/css" href="includes/css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-
-    <title>PROTOTYPE</title>
-
-</head>
-<body>
 
 <!-- Slideshow -->
+<?php
+
+if(!$slides->isEmpty())
+{ ?>
+
 <div class="slideshowContainer">
 
     <?php
+
         foreach ($slides as $slide)
         {
             require "includes/slideshow.php";
@@ -35,14 +29,14 @@
 
     <a class="previousSlide" onclick="slidesFunction(-1)">&#10094;</a>
     <a class="nextSlide" onclick="slidesFunction(1)">&#10095;</a>
+    <script src="includes/slideshow.js"></script>
 </div>
+
+<?php } ?>
 
 <!-- Main window -->
-<div id="container">
+    <div id="container">
 
-</div>
-
-<script src="includes/slideshow.js"></script>
-
-</body>
-</html>
+<?php
+require "includes/footer.php";
+?>

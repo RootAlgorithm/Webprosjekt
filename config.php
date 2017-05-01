@@ -5,7 +5,7 @@
     $port = 3306;
     $user = 'morkai16_felles';
     $pass = 'blåtthår';
-    $db_name = 'slideshow';
+    $db_name = 'morkai16_webprosjekt';
 
     $db = new Database();
     $db->addConnection([
@@ -15,6 +15,10 @@
         'username' => $user,
         'password' => $pass,
         'database' => $db_name,
+        'charset' => 'utf8',
         'collation' => 'utf8_general_ci'
     ]);
+
+    $db->setAsGlobal();
+
     $db->bootEloquent();

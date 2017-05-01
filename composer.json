@@ -1,10 +1,10 @@
 {
     "require": {
-        "illuminate/database": "^5.4"
+        "illuminate/database": "^4.2.9"
     },
     "autoload": {
-        "psr-4": {
-            "": "phpClass/"
-        }
+        "classmap": [
+            "phpClass/"
+        ]
     }
 }
