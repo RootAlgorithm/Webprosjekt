@@ -1,65 +1,60 @@
-* {box-sizing: border-box}
+html p {
+  font-family: "Raleway", sans-serif;
+  color: green; }
 
-.slideshowContainer
-{
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
+* {
+  box-sizing: border-box; }
 
-.slide
-{
-    display: none;
-}
+.slideshowContainer {
+  max-width: 1000px;
+  position: relative;
+  margin: auto; }
 
-.slidertext
-{
-    font-family: 'Raleway', sans-serif;
-    font-size: 32px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-    color: white;
-}
+.slide {
+  display: none; }
 
-.previousSlide, .nextSlide
-{
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-}
+.slidertext {
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  color: white; }
 
-.nextSlide
-{
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
+.previousSlide, .nextSlide {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0; }
 
-/*Slideshow fade animation*/
-.fadeout
-{
-    -webkit-animation-name: fadeout;
-    -webkit-animation-duration: 2s;
-    animation-name: fadeout;
-    animation-duration: 2s;
-}
+.nextSlide {
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+.fadeout {
+  -webkit-animation-name: fadeout;
+  animation-name: fadeout;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s; }
 
 @-webkit-keyframes fadeout {
-    from {opacity: .4}
-    to {opacity:1}
-}
-
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
 @keyframes fadeout {
-    from {opacity: .4}
-    to {opacity: 1}
-}
+  from {
+    opacity: 0.4; }
+  to {
+    opacity: 1; } }
+
+/*# sourceMappingURL=styles.css.map */

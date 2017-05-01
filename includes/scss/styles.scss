@@ -1,0 +1,89 @@
+$niceFont: 'Raleway', sans-serif;
+
+html {
+    p {
+        font-family: $niceFont;
+        color: green;
+    }
+}
+
+//Slideshow
+
+* {
+    box-sizing: border-box;
+}
+
+.slideshowContainer {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+.slidertext {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.previousSlide, .nextSlide {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.nextSlide {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+//Slideshow fade animation
+
+@mixin animation-name($name) {
+    -webkit-animation-name: $name;
+    animation-name: $name;
+}
+
+@mixin animation-duration($duration) {
+    -webkit-animation-duration: $duration;
+    animation-duration: $duration;
+}
+
+.fadeout {
+    @include animation-name(fadeout);
+    @include animation-duration(2s);
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
