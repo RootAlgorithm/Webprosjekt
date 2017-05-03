@@ -9,9 +9,6 @@
       <image:loc>http://home.no/images/logov3.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/campusfjerdingen-crop-u425.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://home.no/images/rabattsymbol-crop-u430.png</image:loc>
     </image:image>
     <image:image>
@@ -31,6 +28,9 @@
     </image:image>
     <image:image>
       <image:loc>http://home.no/images/logocompanyf.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/campusbilde3-crop-u2516.jpg</image:loc>
     </image:image>
   </url>
   <url>
