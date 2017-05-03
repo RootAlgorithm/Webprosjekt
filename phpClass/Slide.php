@@ -11,5 +11,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Slide extends Model
 {
+    protected $primaryKey = 'id';
+    protected $fillable = [
+        'img',
+        'title',
+        'text'
+    ];
     public $timestamps = false;
 }

@@ -1,0 +1,217 @@
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="home.no" resolutions="1x" timestamp="1493815956437">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_a-master.css" crc="4127321948" ref="på-campus:login:index:i-nærområdet:registrer:min-side:rabatter"/>
+    <file name="p_-campus.css" crc="4147304350" ref="på-campus"/>
+    <file name="login.css" crc="373017073" ref="login"/>
+    <file name="index.css" crc="4104711490" ref="index"/>
+    <file name="i-n_romr_det.css" crc="87873400" ref="i-nærområdet"/>
+    <file name="registrer.css" crc="4137820107" ref="registrer"/>
+    <file name="min-side.css" crc="4269469664" ref="min-side"/>
+    <file name="rabatter.css" crc="66677934" ref="rabatter"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
+    <file name="museutils.js" crc="4232573551" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
+    <file name="whatinput.js" crc="86476730" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
+    <file name="museconfig.js" crc="4152223963" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="index:rabatter:på-campus"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
+    <file name="require.js" crc="4234670167" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
+    <file name="webpro.js" crc="3770351119" ref="min-side"/>
+    <file name="form_check.php" crc="3841221102" ref="min-side"/>
+    <file name="form_throttle.php" crc="4048049783" ref="min-side"/>
+    <file name="form_process.php" crc="3899230280" ref="min-side"/>
+    <file name="form-u1037.php" crc="154409359" ref="min-side"/>
+  </folder>
+  <folder name="images">
+    <file name="u399-4.png" crc="3912426313" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
+    <file name="u400-4.png" crc="61900552" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
+    <file name="u401-4.png" crc="394594572" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
+    <file name="u402-4.png" crc="212157858" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
+    <file name="logov3.png" crc="3771372790" seo="true" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side">
+      <caption webpage="i-nærområdet" alt=""/>
+      <caption webpage="min-side" alt=""/>
+      <caption webpage="rabatter" alt=""/>
+      <caption webpage="login" alt=""/>
+      <caption webpage="login" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="på-campus" alt=""/>
+      <caption webpage="registrer" alt=""/>
+      <caption webpage="registrer" alt=""/>
+    </file>
+    <file name="campusfjerdingen-crop-u425.jpg" crc="419799586" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u428-4.png" crc="92209025" ref="index"/>
+    <file name="u429-4.png" crc="271411333" ref="index"/>
+    <file name="rabattsymbol-crop-u430.png" crc="507563503" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="minsidesymbol-crop-u432.png" crc="3871538929" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="geotag.png" crc="3886916358" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="skolesymbol-crop-u436.png" crc="4148516387" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u438-4.png" crc="4170260174" ref="index"/>
+    <file name="u439-4.png" crc="3818783846" ref="index"/>
+    <file name="u440-4.png" crc="224458525" ref="index"/>
+    <file name="u441-4.png" crc="199935934" ref="index"/>
+    <file name="u442-4.png" crc="338554580" ref="index"/>
+    <file name="u443-4.png" crc="274061714" ref="index"/>
+    <file name="u444-4.png" crc="474014882" ref="index"/>
+    <file name="u445-4.png" crc="197979057" ref="index"/>
+    <file name="u448-4.png" crc="4119506482" ref="index"/>
+    <file name="u450-4.png" crc="4119506482" ref="index"/>
+    <file name="u453-4.png" crc="4119506482" ref="index"/>
+    <file name="u456-4.png" crc="4119506482" ref="index"/>
+    <file name="u458-4.png" crc="184585279" ref="index"/>
+    <file name="u489-4.png" crc="475174126" ref="index"/>
+    <file name="u473-4.png" crc="301867836" ref="index"/>
+    <file name="u480-4.png" crc="4151142823" ref="index"/>
+    <file name="u486-4.png" crc="527268507" ref="index"/>
+    <file name="u466-4.png" crc="216539377" ref="index"/>
+    <file name="aktivietakerselva-crop-u490.png" crc="302902016" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u496-4.png" crc="342541872" ref="index"/>
+    <file name="u499-4.png" crc="4111941454" ref="index"/>
+    <file name="rabattlaptop.png" crc="459919377" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u498-4.png" crc="490646650" ref="index"/>
+    <file name="u500-4.png" crc="4126932574" ref="index"/>
+    <file name="logocompanyf.png" crc="497793019" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u497-4.png" crc="4218301048" ref="index"/>
+    <file name="u501-4.png" crc="531785344" ref="index"/>
+    <file name="u929-6.png" crc="120634474" ref="index"/>
+    <file name="u938-4.png" crc="385308041" ref="index"/>
+    <file name="u947-6.png" crc="3852049279" ref="index"/>
+    <file name="u949-4.png" crc="385308041" ref="index"/>
+    <file name="studenter-crop-u721.jpg" crc="112923482" seo="true" ref="login">
+      <caption webpage="login" alt=""/>
+    </file>
+    <file name="u727-4.png" crc="4278219632" ref="login"/>
+    <file name="u729-4.png" crc="4120735728" ref="login"/>
+    <file name="u731-4.png" crc="3764086964" ref="login"/>
+    <file name="u732-4.png" crc="3842630649" ref="login"/>
+    <file name="studenter-crop-u763.jpg" crc="112923482" seo="true" ref="registrer">
+      <caption webpage="registrer" alt=""/>
+    </file>
+    <file name="u769-4.png" crc="4278219632" ref="registrer"/>
+    <file name="u771-4.png" crc="4120735728" ref="registrer"/>
+    <file name="u773-4.png" crc="487237685" ref="registrer"/>
+    <file name="u775-4.png" crc="3905530045" ref="registrer"/>
+    <file name="u777-4.png" crc="3775177295" ref="registrer"/>
+    <file name="arrowmenudown.png" crc="262559161" ref="rabatter:på-campus">
+      <caption webpage="rabatter" alt=""/>
+      <caption webpage="på-campus" alt=""/>
+    </file>
+    <file name="u1669-4.png" crc="10803536" ref="rabatter"/>
+    <file name="rabattlaptop2.png" crc="4149253731" seo="true" ref="rabatter">
+      <caption webpage="rabatter" alt=""/>
+    </file>
+    <file name="bokrabatt-crop-u1680.jpg" crc="96529049" seo="true" ref="rabatter">
+      <caption webpage="rabatter" alt=""/>
+    </file>
+    <file name="burgerrabatt-crop-u1683.jpg" crc="4014624977" seo="true" ref="rabatter">
+      <caption webpage="rabatter" alt=""/>
+    </file>
+    <file name="u1832-4.png" crc="17064028" ref="rabatter"/>
+    <file name="u1842-4.png" crc="375312442" ref="rabatter"/>
+    <file name="u1838-4.png" crc="147607698" ref="rabatter"/>
+    <file name="fitnessfitrabatt-crop-u1692.jpg" crc="120863273" seo="true" ref="rabatter">
+      <caption webpage="rabatter" alt=""/>
+    </file>
+    <file name="spillrabatt-crop-u1689.jpg" crc="162690083" seo="true" ref="rabatter">
+      <caption webpage="rabatter" alt=""/>
+    </file>
+    <file name="ollrabatt-crop-u1686.jpg" crc="179111218" seo="true" ref="rabatter">
+      <caption webpage="rabatter" alt=""/>
+    </file>
+    <file name="u1848-4.png" crc="3967888026" ref="rabatter"/>
+    <file name="u1854-4.png" crc="3838787380" ref="rabatter"/>
+    <file name="u1863-4.png" crc="17328693" ref="rabatter"/>
+    <file name="campusbilde3-crop-u1900.jpg" crc="4065442940" seo="true" ref="på-campus">
+      <caption webpage="på-campus" alt=""/>
+    </file>
+    <file name="u1893-4.png" crc="3864861163" ref="på-campus"/>
+    <file name="u1913-18.png" crc="4080439360" ref="på-campus"/>
+    <file name="u1923-4.png" crc="184585279" ref="på-campus"/>
+    <file name="u1954-4.png" crc="475174126" ref="på-campus"/>
+    <file name="u1948-4.png" crc="301867836" ref="på-campus"/>
+    <file name="u1938-4.png" crc="3894754719" ref="på-campus"/>
+    <file name="u1945-4.png" crc="527268507" ref="på-campus"/>
+    <file name="u1928-4.png" crc="3893730258" ref="på-campus"/>
+    <file name="campusbilde1-crop-u2069.jpg" crc="3846248864" seo="true" ref="på-campus">
+      <caption webpage="på-campus" alt=""/>
+    </file>
+    <file name="u2072-4.png" crc="97955798" ref="på-campus"/>
+    <file name="studenter-crop-u2092.jpg" crc="3761688202" seo="true" ref="på-campus">
+      <caption webpage="på-campus" alt=""/>
+    </file>
+    <file name="u2095-4.png" crc="4148112427" ref="på-campus"/>
+    <file name="sjakkforedning-crop-u2105.jpg" crc="62404019" seo="true" ref="på-campus">
+      <caption webpage="på-campus" alt=""/>
+    </file>
+    <file name="u2108-4.png" crc="4186476652" ref="på-campus"/>
+    <file name="u1959-4.png" crc="180539655" ref="på-campus"/>
+    <file name="u1965-4.png" crc="510074808" ref="på-campus"/>
+    <file name="u2138-4.png" crc="79607830" ref="på-campus"/>
+    <file name="u2180-4.png" crc="10803536" ref="på-campus"/>
+    <file name="bokrabatt-crop-u2184.jpg" crc="96529049" seo="true" ref="på-campus">
+      <caption webpage="på-campus" alt=""/>
+    </file>
+    <file name="u2381-4.png" crc="510074808" ref="på-campus"/>
+    <file name="studieteknikkarangement-crop-u2186.jpg" crc="4166129895" seo="true" ref="på-campus">
+      <caption webpage="på-campus" alt=""/>
+    </file>
+    <file name="u2189-4.png" crc="3976704250" ref="på-campus"/>
+    <file name="sjakkforedning-crop-u2346.jpg" crc="62404019" seo="true" ref="på-campus">
+      <caption webpage="på-campus" alt=""/>
+    </file>
+    <file name="u2350-4.png" crc="79607830" ref="på-campus"/>
+    <file name="u2407-4.png" crc="180539655" ref="på-campus"/>
+    <file name="u2349-4.png" crc="4186476652" ref="på-campus"/>
+    <file name="u2191-4.png" crc="110168160" ref="på-campus"/>
+    <file name="eksamensarrangement-crop-u2304.jpg" crc="3809923048" seo="true" ref="på-campus">
+      <caption webpage="på-campus" alt=""/>
+    </file>
+    <file name="u2420-4.png" crc="180539655" ref="på-campus"/>
+    <file name="foreningbokklubb-crop-u2302.jpg" crc="4030308260" seo="true" ref="på-campus">
+      <caption webpage="på-campus" alt=""/>
+    </file>
+    <file name="studenter-crop-u2362.jpg" crc="3761688202" seo="true" ref="på-campus">
+      <caption webpage="på-campus" alt=""/>
+    </file>
+    <file name="u2366-4.png" crc="510074808" ref="på-campus"/>
+    <file name="u2394-4.png" crc="79607830" ref="på-campus"/>
+    <file name="u2313-4.png" crc="236408065" ref="på-campus"/>
+    <file name="u2311-4.png" crc="304384407" ref="på-campus"/>
+    <file name="u2365-4.png" crc="4148112427" ref="på-campus"/>
+    <file name="portrait-symbol.png" crc="3989186702" seo="true" ref="min-side">
+      <caption webpage="min-side" alt=""/>
+    </file>
+    <file name="u1028-4.png" crc="3976252028" ref="min-side"/>
+    <file name="u1871-4.png" crc="196051589" ref="min-side"/>
+    <file name="u1874-9.png" crc="4078788090" ref="min-side"/>
+    <file name="u1031-4.png" crc="3984043649" ref="min-side"/>
+    <file name="u1034-19.png" crc="521942740" ref="min-side"/>
+    <file name="u1196-4.png" crc="3787037837" ref="min-side"/>
+    <file name="u1199-4.png" crc="4019748147" ref="min-side"/>
+  </folder>
+  <file name="index.html" crc="3999193236" seo="true" mt="1493812078430" redirect="true"/>
+  <file name="login.html" crc="4128019490" seo="true" mt="1493811946112" redirect="true"/>
+  <file name="registrer.html" crc="4289374103" seo="true" mt="1493811925751" redirect="true"/>
+  <file name="rabatter.html" crc="223230432" seo="true" mt="1493814134828" redirect="true"/>
+  <file name="på-campus.html" crc="4047124099" seo="true" mt="1493815866460" redirect="true"/>
+  <file name="i-nærområdet.html" crc="3811055725" seo="true" mt="1493811896474" redirect="true"/>
+  <file name="min-side.html" crc="3794371837" seo="true" mt="1493811896474" redirect="true"/>
+</manifest>
