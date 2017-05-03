@@ -3,9 +3,9 @@
     use Illuminate\Database\Capsule\Manager as Database;
 
     $port = 3306;
-    $user = 'morkai16_felles';
+    $user = 'ritand16_felles';
     $pass = 'blåtthår';
-    $db_name = 'morkai16_webprosjekt';
+    $db_name = 'ritand16_database';
 
     $db = new Database();
     $db->addConnection([
