@@ -12,11 +12,11 @@ html {
     font-family: "Raleway", sans-serif;
     color: green; }
 
-#container {
+.container {
   min-height: 100%;
   position: relative; }
 
-#container * {
+.container * {
   overflow: hidden;
   text-align: center;
   position: relative; }
@@ -28,8 +28,8 @@ html {
   opacity: 0.8; }
 
 .header_icon {
-  width: 63px;
   height: 63px;
+  width: 63px;
   float: left; }
 
 .header_btn {
@@ -66,18 +66,18 @@ input[type=lesmercard] {
   input[type=lesmercard]:hover {
     background-color: #2e2e2e; }
 
-#index_main_body {
+.index_main_body {
   width: 100%;
   height: auto; }
   #index_main_body div {
     margin-bottom: 5%; }
 
-#index_main_body_top {
+.index_main_body_top {
   position: relative;
   width: 100%;
   min-height: 500px; }
 
-#index_main_body_top_img {
+.index_main_body_top_img {
   position: absolute;
   left: 0;
   top: 0;
@@ -87,9 +87,19 @@ input[type=lesmercard] {
   font-family: 'Raleway', sans-serif;
   color: white;
   position: absolute;
+  top: 270px;
+  width: 100%;
+  z-index: 100;
+}
+
+.index_main_body_top_textH{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  position: absolute;
   top: 200px;
   width: 100%;
-  z-index: 100; }
+  z-index: 100;
+}
 
 .span_text {
   background: black;
@@ -97,7 +107,7 @@ input[type=lesmercard] {
   padding: 8px;
   display: inline-block; }
 
-#index_main_body_lesmer {
+.index_main_body_lesmer {
   margin: auto;
   width: auto;
   position: relative; }
@@ -144,6 +154,10 @@ input[type=lesmercard] {
 .nextSlide {
   right: 0;
   border-radius: 3px 0 0 3px; }
+
+.previousSlide{
+  left: 0;
+}
 
 .fadeout {
   -webkit-animation-name: fadeout;
