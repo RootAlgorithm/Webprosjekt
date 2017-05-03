@@ -17,7 +17,7 @@
             <div id="header_under"></div>
                 
             <div class="innloggReg">
-                <h1>Logg inn</h1>
+                <h1>Log g inn</h1>
                 <div>
                     <label for="epost">Epost</label>
                     <input type="text" id="epost" name="Epost" placeholder="Din epost..">
