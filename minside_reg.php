@@ -1,9 +1,5 @@
 <?php
-require "vendor/autoload.php";
-require "config.php";
-
 require "includes/header.php";
-
 ?>
 
 
@@ -40,7 +36,6 @@ require "includes/header.php";
     </div>
     </div>
 
-</div>
-
-</body>
-</html>
+<?php
+require "includes/footer.php";
+?>
