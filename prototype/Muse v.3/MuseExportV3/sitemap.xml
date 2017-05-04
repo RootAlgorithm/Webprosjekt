@@ -21,9 +21,6 @@
       <image:loc>http://home.no/images/skolesymbol-crop-u436.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/campusbilde3-crop-u2516.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://home.no/images/aktivitetbotaniskhage-crop-u3180.jpg</image:loc>
     </image:image>
     <image:image>
@@ -31,6 +28,15 @@
     </image:image>
     <image:image>
       <image:loc>http://home.no/images/spillrabatt-crop-u3260.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/campusbilde3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/campusbilde1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/campusbilde2.jpg</image:loc>
     </image:image>
   </url>
   <url>
