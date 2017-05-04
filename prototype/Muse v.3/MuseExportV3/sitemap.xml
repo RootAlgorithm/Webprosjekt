@@ -174,4 +174,19 @@
       <image:loc>http://home.no/images/portrait-symbol.png</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>http://home.no/artikkelmal.html</loc>
+    <lastmod>2017-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://home.no/images/logov3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/konsertarrangement-crop-u3084.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/karttilkonsert.jpg</image:loc>
+    </image:image>
+  </url>
 </urlset>

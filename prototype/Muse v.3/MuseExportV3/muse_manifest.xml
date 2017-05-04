@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="home.no" resolutions="1x" timestamp="1493890393477">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="home.no" resolutions="1x" timestamp="1493893442598">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="master_a-master.css" crc="3818801305" ref="på-campus:login:index:i-nærområdet:registrer:min-side:rabatter"/>
+    <file name="master_a-master.css" crc="3818801305" ref="på-campus:login:index:i-nærområdet:registrer:min-side:rabatter:artikkelmal"/>
     <file name="p_-campus.css" crc="78908282" ref="på-campus"/>
     <file name="login.css" crc="314321156" ref="login"/>
     <file name="index.css" crc="376956709" ref="index"/>
@@ -9,16 +9,17 @@
     <file name="registrer.css" crc="3803646761" ref="registrer"/>
     <file name="min-side.css" crc="374198542" ref="min-side"/>
     <file name="rabatter.css" crc="394433123" ref="rabatter"/>
+    <file name="artikkelmal.css" crc="272477347" ref="artikkelmal"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
-    <file name="museutils.js" crc="4232573551" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
-    <file name="whatinput.js" crc="86476730" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
-    <file name="museconfig.js" crc="4152223963" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
-    <file name="jquery.watch.js" crc="3844535323" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side:artikkelmal"/>
+    <file name="museutils.js" crc="4232573551" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side:artikkelmal"/>
+    <file name="whatinput.js" crc="86476730" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side:artikkelmal"/>
+    <file name="museconfig.js" crc="4152223963" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side:artikkelmal"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side:artikkelmal"/>
     <file name="jquery.musemenu.js" crc="38860304" ref="index:rabatter:på-campus:i-nærområdet"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
-    <file name="require.js" crc="4234670167" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side:artikkelmal"/>
+    <file name="require.js" crc="4234670167" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side:artikkelmal"/>
     <file name="webpro.js" crc="3770351119" ref="min-side"/>
     <file name="form_check.php" crc="3841221102" ref="min-side"/>
     <file name="form_throttle.php" crc="4048049783" ref="min-side"/>
@@ -26,13 +27,14 @@
     <file name="form-u1037.php" crc="154409359" ref="min-side"/>
   </folder>
   <folder name="images">
-    <file name="logov3.png" crc="3771372790" seo="true" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side">
-      <caption webpage="index" alt=""/>
+    <file name="logov3.png" crc="3771372790" seo="true" ref="index:login:registrer:rabatter:på-campus:i-nærområdet:min-side:artikkelmal">
+      <caption webpage="min-side" alt=""/>
       <caption webpage="i-nærområdet" alt=""/>
       <caption webpage="login" alt=""/>
       <caption webpage="login" alt=""/>
       <caption webpage="rabatter" alt=""/>
-      <caption webpage="min-side" alt=""/>
+      <caption webpage="artikkelmal" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="registrer" alt=""/>
       <caption webpage="registrer" alt=""/>
       <caption webpage="på-campus" alt=""/>
@@ -151,8 +153,14 @@
     <file name="aktivietakerselva-crop-u2659.jpg" crc="3968083710" seo="true" ref="i-nærområdet">
       <caption webpage="i-nærområdet" alt=""/>
     </file>
-    <file name="konsertarrangement-crop-u2672.jpg" crc="3927478389" seo="true" ref="i-nærområdet">
+    <file name="konsertarrangement-crop-u2672.jpg" crc="4240853450" seo="true" ref="i-nærområdet">
       <caption webpage="i-nærområdet" alt=""/>
+    </file>
+    <file name="konsertarrangement-crop-u3084.jpg" crc="378055656" seo="true" ref="artikkelmal">
+      <caption webpage="artikkelmal" alt=""/>
+    </file>
+    <file name="karttilkonsert.jpg" crc="3850338440" seo="true" ref="artikkelmal">
+      <caption webpage="artikkelmal" alt=""/>
     </file>
   </folder>
   <file name="index.html" crc="4100587890" seo="true" mt="1493846468618" redirect="true"/>
@@ -160,6 +168,7 @@
   <file name="registrer.html" crc="91995744" seo="true" mt="1493845735734" redirect="true"/>
   <file name="rabatter.html" crc="431703856" seo="true" mt="1493845616993" redirect="true"/>
   <file name="på-campus.html" crc="45920119" seo="true" mt="1493845371047" redirect="true"/>
-  <file name="i-nærområdet.html" crc="530758995" seo="true" mt="1493890381895" redirect="true"/>
+  <file name="i-nærområdet.html" crc="3824855664" seo="true" mt="1493893090525" redirect="true"/>
   <file name="min-side.html" crc="4008986867" seo="true" mt="1493846120097" redirect="true"/>
+  <file name="artikkelmal.html" crc="302814453" seo="true" mt="1493893048571" redirect="true"/>
 </manifest>
