@@ -13,6 +13,8 @@ require "includes/header.php";
     require "includes/header_link.php";
     ?>
 
+    <img class="minside_bilde" src="Bilder/Studenter.jpg">
+
 </div>
 
 </body>

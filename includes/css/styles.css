@@ -183,3 +183,9 @@ input[type=lesmercard] {
     width: 100%;
     top:50%;
 }
+
+.minside_bilde{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
