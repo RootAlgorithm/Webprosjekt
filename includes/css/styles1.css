@@ -235,6 +235,6 @@ input[type=submit] {
 .minside_bilde{
     height: 100%;
     width: 100%;
-    position: relative;
-    top:0;
+
+    background-image: url("../../Bilder/Studenter.jpg");
 }

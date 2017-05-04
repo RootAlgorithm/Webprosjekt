@@ -7,14 +7,14 @@ require "includes/header.php";
 ?>
 
 
-<div id="container">
+<div class="container">
 
-
+    <div class="minside_bilde">
     <?php
     require "includes/header_link.php";
     ?>
 
-    <img class="minside_bilde" src="Bilder/Studenter.jpg">
+
     <div class="minside_schema">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="brukernavn" placeholder="Brukernavn...">
@@ -36,7 +36,7 @@ require "includes/header.php";
 
         <input type="submit" value="Submit">
     </div>
-
+    </div>
 
 </div>
 
