@@ -1,14 +1,14 @@
 <?php
-require "vendor/autoload.php";
-require "config.php";
+    require "vendor/autoload.php";
+    require "config.php";
 
 
-$slides = Slide::all();
+    $slides = Slide::all();
 
 ?>
 
 <?php
-require "includes/header.php";
+    require "includes/header.php";
 ?>
 
     <!-- Main window -->
