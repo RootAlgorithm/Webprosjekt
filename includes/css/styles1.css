@@ -1,0 +1,232 @@
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e9ec; }
+html body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e9ec; }
+html p {
+    font-family: "Raleway", sans-serif;
+    color: green; }
+
+.container {
+    min-height: 100%;
+    position: relative; }
+
+.container * {
+    overflow: hidden;
+    text-align: center;
+    position: relative; }
+
+.header_body {
+    height: 63px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8; }
+
+.header_icon {
+    height: 63px;
+    width: auto;
+    float: left; }
+
+.header_btn {
+    float: right;
+    height: 100%;
+    width: 60%; }
+
+.header_btn_ting {
+    float: right;
+    width: 20%;
+    height: 100%; }
+
+input[type=header] {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif; }
+input[type=header]:hover {
+    background-color: #2e2e2e; }
+
+input[type=lesmercard] {
+    width: 100px;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif; }
+input[type=lesmercard]:hover {
+    background-color: #2e2e2e; }
+
+input[type=text]{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+input[type=password]{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.minside_schema{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+}
+
+.index_main_body {
+    width: 100%;
+    height: auto; }
+#index_main_body div {
+    margin-bottom: 5%; }
+
+.index_main_body_top {
+    position: relative;
+    width: 100%;
+    min-height: 500px; }
+
+.index_main_body_top_img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%; }
+
+.index_main_body_top_text {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: absolute;
+    top: 270px;
+    width: 100%;
+    z-index: 100;
+}
+
+.index_main_body_top_textH{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    z-index: 100;
+}
+
+.span_text {
+    background: black;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px;
+    display: inline-block; }
+
+.index_main_body_lesmer {
+    margin: auto;
+    width: auto;
+    position: relative; }
+
+.index_main_body_lesmercard {
+    min-width: 15%;
+    position: relative;
+    display: inline-block; }
+
+* {
+    box-sizing: border-box; }
+
+.slideshowContainer {
+    max-width: 1000px;
+    position: relative;
+    margin: auto; }
+
+.slide {
+    display: none; }
+
+.slidertext {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    color: white; }
+
+.previousSlide, .nextSlide {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0; }
+
+.nextSlide {
+    right: 0;
+    border-radius: 3px 0 0 3px; }
+
+.previousSlide{
+    left: 0;
+}
+
+.fadeout {
+    -webkit-animation-name: fadeout;
+    animation-name: fadeout;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s; }
+
+@-webkit-keyframes fadeout {
+    from {
+        opacity: 0.4; }
+    to {
+        opacity: 1; } }
+@keyframes fadeout {
+    from {
+        opacity: 0.4; }
+    to {
+        opacity: 1; } }
+
+/*# sourceMappingURL=styles.css.map */
+
+#index_main_slideholder_button{
+    position: absolute;
+    width: 100%;
+    top:50%;
+}
+
+.minside_bilde{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
