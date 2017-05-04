@@ -2,8 +2,8 @@
 require "vendor/autoload.php";
 require "config.php";
 
-
 $slides = Slide::all();
+$lesmer = Lesmer::all();
 
 ?>
 
@@ -44,7 +44,6 @@ require "includes/header_link.php"
         <div class="index_main_body_lesmer">
 
             <?php
-            $lesmer = Lesmer::all();
 
             foreach ($lesmer as $lesme){
                     require "includes/lesmercards.php";
