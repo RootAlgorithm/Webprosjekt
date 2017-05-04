@@ -16,6 +16,7 @@ require "includes/header.php";
 
 
     <div class="minside_schema">
+        <form action="includes/addUser.php">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="brukernavn" placeholder="Brukernavn...">
 
@@ -32,9 +33,10 @@ require "includes/header.php";
         <input type="password" id="passord" name="passord" placeholder="Passord...">
 
         <label for="fname">First Name</label>
-        <input type="password" id="password2" name="gjenntapassord" placeholder="Gjennta passord...">
+        <input type="password" id="password2" name="gjentapassord" placeholder="Gjenta passord...">
 
         <input type="submit" value="Submit">
+        </form>
     </div>
     </div>
 

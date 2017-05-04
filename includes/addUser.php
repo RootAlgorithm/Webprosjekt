@@ -10,14 +10,14 @@ require '../vendor/autoload.php';
 require '../config.php';
 
 $user = new User();
-$user->setAttribute('username', $_POST['']);
-$user->setAttribute('first-name', $_POST['']);
-$user->setAttribute('last-name', $_POST['']);
-$user->setAttribute('email', $_POST['']);
+$user->setAttribute('username', $_POST['brukernavn']);
+$user->setAttribute('first-name', $_POST['fornavn']);
+$user->setAttribute('last-name', $_POST['etternavn']);
+$user->setAttribute('email', $_POST['epost']);
 
-if($_POST[''] == $_POST[''])
+if($_POST['passord'] == $_POST['gjentapassord'])
 {
-    $user->setAttribute('password', password_hash($_POST[''], PASSWORD_BCRYPT));
+    $user->setAttribute('password', password_hash($_POST['passord'], PASSWORD_BCRYPT));
 }
 $user->save();
 
