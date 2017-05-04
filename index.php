@@ -1,14 +1,14 @@
 <?php
-    require "vendor/autoload.php";
-    require "config.php";
+require "vendor/autoload.php";
+require "config.php";
 
-
-    $slides = Slide::all();
+$slides = Slide::all();
+$lesmer = Lesmer::all();
 
 ?>
 
 <?php
-    require "includes/header.php";
+require "includes/header.php";
 ?>
 
     <!-- Main window -->
@@ -44,7 +44,6 @@ require "includes/header_link.php"
         <div class="index_main_body_lesmer">
 
             <?php
-            $lesmer = Lesmer::all();
 
             foreach ($lesmer as $lesme){
                     require "includes/lesmercards.php";

@@ -11,6 +11,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Lesmer extends Model
 {
+    protected $table = 'lesmer';
     protected $primaryKey = 'id';
     protected $fillable = [
         'img',
