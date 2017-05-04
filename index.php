@@ -5,7 +5,6 @@ require "config.php";
 
 $slides = Slide::all();
 
-$lesmer = Lesmer::all();
 ?>
 
 <?php
@@ -45,8 +44,9 @@ require "includes/header_link.php"
         <div class="index_main_body_lesmer">
 
             <?php
+            $lesmer = Lesmer::all();
 
-                foreach ($lesmer as $lesme){
+            foreach ($lesmer as $lesme){
                     require "includes/lesmercards.php";
                 }
 
