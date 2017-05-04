@@ -29,7 +29,7 @@ html {
 
 .header_icon {
   height: 63px;
-  width: 63px;
+  width: auto;
   float: left; }
 
 .header_btn {
@@ -177,10 +177,6 @@ input[type=lesmercard] {
     opacity: 1; } }
 
 /*# sourceMappingURL=styles.css.map */
-
-#index_main_sliderholder{
-
-}
 
 #index_main_slideholder_button{
     position: absolute;
