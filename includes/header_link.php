@@ -1,9 +1,9 @@
-<div class="header_body">
+<div class="header_body" xmlns="http://www.w3.org/1999/html">
         <a href="index.php"><img class="header_icon" src="Bilder/Symboler/LogoV3.png"></a>
         <div class="header_btn">
-            <div class="header_btn_ting"><a href="minside.php"><input type="header" value="Min Side"></a></div>
-            <div class="header_btn_ting"><a href="nerheten.php"><input type="header" value="I nærheten"></a></div>
-            <div class="header_btn_ting"><a href="rabatt.php"><input type="header" value="Rabatter"></a></div>
-            <div class="header_btn_ting"><a href="campus.php"><input type="header" value="På Campus"></a></div>
+            <a href="minside_innlogg.php"><div class="header_btn_ting"></br>Min side</div></a>
+            <a href="nerheten.php"><div class="header_btn_ting"></br>I nærheten</div></a>
+            <a href="rabatt.php"><div class="header_btn_ting"></br>Rabatter</div></a>
+            <a href="campus.php"><div class="header_btn_ting"></br>På campus</div></a>
         </div>
 </div>

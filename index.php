@@ -54,6 +54,21 @@ require "includes/header_link.php"
         </div>
 
 
+        <div class="aktuelt">
+            <img class="aktuelt_bilde" src="Bilder/Symboler/aktuelt.png">
+            <div class="aktuelt_top"></div>
+            <div class="aktuelt_menu">
+                <div class="aktuelt_menu_knapp">Alle kategorier</div>
+                <div class="aktuelt_menu_knapp">Rabatter</div>
+                <div class="aktuelt_menu_knapp">Stillinger</div>
+                <div class="aktuelt_menu_knapp">Restauranter</div>
+            </div>
+            <div class="aktuelt_innhold">
+                <div class="aktuelt_innhold_card"></div>
+                <div class="aktuelt_innhold_card"></div>
+                <div class="aktuelt_innhold_card"></div>
+            </div>
+        </div>
 
     </div>
 
