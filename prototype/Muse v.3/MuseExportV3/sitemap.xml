@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://home.no/index.html</loc>
-    <lastmod>2017-05-03</lastmod>
+    <lastmod>2017-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -21,21 +21,27 @@
       <image:loc>http://home.no/images/skolesymbol-crop-u436.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/aktivietakerselva-crop-u490.png</image:loc>
+      <image:loc>http://home.no/images/aktivitetbotaniskhage-crop-u3180.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/rabattlaptop.png</image:loc>
+      <image:loc>http://home.no/images/studenter-crop-u3244.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/logocompanyf.png</image:loc>
+      <image:loc>http://home.no/images/spillrabatt-crop-u3260.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/campusbilde3-crop-u2516.jpg</image:loc>
+      <image:loc>http://home.no/images/campusbilde3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/campusbilde1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://home.no/images/campusbilde2.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://home.no/login.html</loc>
-    <lastmod>2017-05-03</lastmod>
+    <lastmod>2017-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -47,7 +53,7 @@
   </url>
   <url>
     <loc>http://home.no/registrer.html</loc>
-    <lastmod>2017-05-03</lastmod>
+    <lastmod>2017-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -59,14 +65,14 @@
   </url>
   <url>
     <loc>http://home.no/rabatter.html</loc>
-    <lastmod>2017-05-03</lastmod>
+    <lastmod>2017-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
       <image:loc>http://home.no/images/logov3.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://home.no/images/rabattlaptop2.png</image:loc>
+      <image:loc>http://home.no/images/rabattlaptop.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://home.no/images/bokrabatt-crop-u1680.jpg</image:loc>
@@ -86,7 +92,7 @@
   </url>
   <url>
     <loc>http://home.no/p%C3%A5-campus.html</loc>
-    <lastmod>2017-05-03</lastmod>
+    <lastmod>2017-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -164,7 +170,7 @@
   </url>
   <url>
     <loc>http://home.no/min-side.html</loc>
-    <lastmod>2017-05-03</lastmod>
+    <lastmod>2017-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>

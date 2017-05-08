@@ -1,9 +1,5 @@
 <?php
-require "vendor/autoload.php";
-require "config.php";
-
 require "includes/header.php";
-
 ?>
 
 
@@ -16,6 +12,7 @@ require "includes/header.php";
     ?>
 
 
+<<<<<<< HEAD
     <form class="minside_schema">
             <label for="fname">Brukernavn</label>
             <input type="text" id="fname" name="brukernavn" placeholder="Brukernavn...">
@@ -37,8 +34,33 @@ require "includes/header.php";
 
             <input type="submit" value="Submit">
     </form>
+=======
+    <div class="minside_schema">
+        <form action="includes/addUser.php">
+        <label for="uname">Brukernavn</label>
+        <input type="text" id="uname" name="brukernavn" placeholder="Brukernavn...">
 
-</div>
+        <label for="epost">E-post</label>
+        <input type="text" id="epost" name="epost" placeholder="Epost...">
 
-</body>
-</html>
+        <label for="fname">Fornavn</label>
+        <input type="text" id="fname" name="fornavn" placeholder="Fornanvn...">
+
+        <label for="lname">Etternavn</label>
+        <input type="text" id="lname" name="etternavn" placeholder="Etternavn...">
+
+        <label for="passord">Passord</label>
+        <input type="password" id="passord" name="passord" placeholder="Passord...">
+
+        <label for="password2">Gjenta passord</label>
+        <input type="password" id="password2" name="gjentapassord" placeholder="Gjenta passord...">
+
+        <input type="submit" value="Submit">
+        </form>
+    </div>
+    </div>
+>>>>>>> refs/remotes/origin/master
+
+<?php
+require "includes/footer.php";
+?>
