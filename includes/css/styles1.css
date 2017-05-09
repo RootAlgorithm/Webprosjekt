@@ -9,8 +9,7 @@ html body {
     padding: 0;
     background-color: #e6e9ec; }
 html p {
-    font-family: "Raleway", sans-serif;
-    color: green; }
+    font-family: "Raleway", sans-serif; }
 
 .container {
     min-height: 100%;
@@ -306,16 +305,16 @@ input[type=password]{
 .campus_top{
     height: 290px;
     width: 80%;
+    display: inline-block;
 }
 
 .campus_top_bilde{
     height: 290px;
     width: auto;
-    float: left;
+    margin-right: 10px;
 }
 
 .top_text{
-    float: left;
     width: 30%;
     height: 290px;
     margin: 0;
