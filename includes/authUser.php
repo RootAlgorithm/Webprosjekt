@@ -10,13 +10,21 @@ require '../vendor/autoload.php';
 require '../config.php';
 
 $users = User::all();
-foreach ($users as $user)
-{
-    if($user->getAttribute('username') == $_POST[''])
-    {
-        if(password_verify($user->getAttribute('password'), $_POST['']))
-        {
-            echo 'Login succeeded';
+
+$uName = $_POST['brukernavn'];
+$uPass = $_POST['passord'];
+
+
+foreach ($users as $user) {
+    if($user->getAttribute('username') == $uName) {
+        if (password_verify($uPass, $user['password'])) {
+            //header("Location: http://vg.no");
+            echo "You are a GOD!";
+        } else {
+            //header("Location: http://google.com");
+            echo "NOOOOOOB!!!";
         }
     }
 }
+
+?>
