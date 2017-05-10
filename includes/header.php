@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="stylesheet" type="text/css" href="includes/css/styles1.css">
+    <link rel="icon" type="image/ico" href="Bilder/Symboler/favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 
