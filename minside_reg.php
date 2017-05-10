@@ -11,30 +11,6 @@ require "includes/header.php";
     require "includes/header_link.php";
     ?>
 
-
-<<<<<<< HEAD
-    <form class="minside_schema">
-            <label for="fname">Brukernavn</label>
-            <input type="text" id="fname" name="brukernavn" placeholder="Brukernavn...">
-
-            <label for="fname">Epost</label>
-            <input type="text" id="epost" name="epost" placeholder="Epost...">
-
-            <label for="fname">Fornavn</label>
-            <input type="text" id="fname" name="fornavn" placeholder="Fornanvn...">
-
-            <label for="fname">Etternavn</label>
-            <input type="text" id="ename" name="etternavn" placeholder="Etternavn...">
-
-            <label for="fname">Passord</label>
-            <input type="password" id="passord" name="passord" placeholder="Passord...">
-
-            <label for="fname">Gjennta passord</label>
-            <input type="password" id="password2" name="gjenntapassord" placeholder="Gjennta passord...">
-
-            <input type="submit" value="Submit">
-    </form>
-=======
     <div class="minside_schema">
         <form action="includes/addUser.php">
         <label for="uname">Brukernavn</label>
@@ -58,8 +34,7 @@ require "includes/header.php";
         <input type="submit" value="Submit">
         </form>
     </div>
-    </div>
->>>>>>> refs/remotes/origin/master
+</div>
 
 <?php
 require "includes/footer.php";

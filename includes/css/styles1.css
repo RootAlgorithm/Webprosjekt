@@ -1,13 +1,12 @@
 html {
     width: 100%;
     margin: 0;
-    padding: 0;
-    background-color: #e6e9ec; }
+    padding: 0; }
 html body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #e6e9ec; }
+    background-color: #FFFFFF; }
 html p {
     font-family: "Raleway", sans-serif; }
 
@@ -111,7 +110,7 @@ input[type=password]{
     right:0;
     margin-left:auto;
     margin-right:auto;
-    width: 60%;
+    width: 40%;
     position: fixed;
     top: 140px;
 }
@@ -119,9 +118,6 @@ input[type=password]{
 .index_main_body {
     width: 100%;
     height: auto; }
-
-
-
 
 .index_main_body_top {
     position: relative;
@@ -253,7 +249,7 @@ input[type=password]{
 }
 
 .aktuelt{
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
 
