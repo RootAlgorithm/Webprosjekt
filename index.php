@@ -1,4 +1,5 @@
 <?php
+session_start(["username"]);
 require "vendor/autoload.php";
 require "config.php";
 

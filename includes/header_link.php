@@ -5,5 +5,10 @@
             <a href="nerheten.php"><div class="header_btn_ting"></br>I nærheten</div></a>
             <a href="rabatt.php"><div class="header_btn_ting"></br>Rabatter</div></a>
             <a href="campus.php"><div class="header_btn_ting"></br>På campus</div></a>
+            <?php
+            if(isset($_SESSION['user'])) {
+                echo '<a href="minside.php"><div class ="header_btn_ting"></br>'.$_SESSION['user'].'</div></a>';
+            }
+            ?>
         </div>
 </div>
