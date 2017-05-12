@@ -75,7 +75,7 @@ input[type=lesmercard] {
 #index_main_body_top {
   position: relative;
   width: 100%;
-  min-height: 500px; }
+  min-height: 1000px; }
 
 #index_main_body_top_img {
   position: absolute;
