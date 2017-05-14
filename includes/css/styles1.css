@@ -292,6 +292,11 @@ input[type=password]{
     text-align: left;
 }
 
+.aktuelt_top_holder{
+    width: 80%;
+    margin: auto;
+}
+
 .aktuelt_innhold_card_bilde{
     height: 250px;
     position: absolute;
