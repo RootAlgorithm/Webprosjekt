@@ -13,6 +13,11 @@ require "includes/header.php";
     require "includes/header_link.php";
     ?>
 
+   <?php
+        require "includes/mass_holder.php";
+    ?>
+
+
 </div>
 
 </body>

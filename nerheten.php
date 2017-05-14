@@ -32,6 +32,10 @@ require "includes/header.php";
     require "includes/aktuelt.php";
     ?>
 
+    <?php
+    require "includes/mass_holder.php";
+    ?>
+
 </div>
 
 </body>

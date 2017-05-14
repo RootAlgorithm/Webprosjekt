@@ -102,6 +102,18 @@ input[type=password]{
     font-family: 'Raleway', sans-serif;
 }
 
+input[type=sok]{
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
 .minside_schema{
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -357,4 +369,112 @@ input[type=password]{
 .pusterom{
     width: 100%;
     height: 100px;
+}
+
+.katsok_btn{
+    background-color: #00AFED;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.katsok_dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.katsok_dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.katsok_dropdown_content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.katsok_dropdown_content a:hover{
+    background-color: #f1f1f1;
+}
+
+.katsok_dropdown:hover .katsok_dropdown_content{
+    display: block;
+}
+
+.katsok_dropdown:hover .katsok_btn{
+    background-color: #00a2ed;
+}
+
+.katsok_sok{
+    position: relative;
+    display: inline-block;
+}
+
+.katsok{
+    display: block;
+    text-align: center;
+}
+
+.mc_hoved{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.linje_skift{
+    width: 100%;
+}
+
+.mc_innhold{
+    height: 300px;
+    width: 20%;
+    min-width: 250px;
+    max-width: 400px;
+    position: relative;
+    float: left;
+    margin: 3%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.mc_card_bilde{
+    height: 250px;
+    position: absolute;
+}
+
+.mc_card_head{
+    position: absolute;
+    top: 40px;
+    background-color: aqua;
+    padding: 2px;
+}
+
+.mc_card_text{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+}
+
+.mc_hover{
+    opacity: 0.7;
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    top: 150px;
+}
+
+.mc_innhold:hover .mc_hover{
+    display: block;
 }
