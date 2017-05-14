@@ -1,6 +1,4 @@
 <?php
-require "vendor/autoload.php";
-require "config.php";
 
 require "includes/header.php";
 
@@ -15,11 +13,11 @@ require "includes/header.php";
     ?>
 
 
-    <form class="minside_schema">
+    <form class="minside_schema" action="includes/authUser.php" method="post">
         <label for="fname">Brukernavn</label>
         <input type="text" id="fname" name="brukernavn" placeholder="Brukernavn...">
 
-        <label for="fname">Passord</label>
+        <label for="password">Passord</label>
         <input type="password" id="password" name="passord" placeholder="Passord...">
 
         <input type="submit" value="Submit">
@@ -27,7 +25,6 @@ require "includes/header.php";
 
 
 
-</div>
-
-</body>
-</html>
+<?php
+require "includes/footer.php";
+?>

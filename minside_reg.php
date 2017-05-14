@@ -12,7 +12,7 @@ require "includes/header.php";
     ?>
 
     <div class="minside_schema">
-        <form action="includes/addUser.php">
+        <form action="includes/addUser.php" method="post">
         <label for="uname">Brukernavn</label>
         <input type="text" id="uname" name="brukernavn" placeholder="Brukernavn...">
 

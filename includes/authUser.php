@@ -1,4 +1,5 @@
 <?php
+session_start();
 /**
  * Created by PhpStorm.
  * User: Talimere
@@ -10,13 +11,19 @@ require '../vendor/autoload.php';
 require '../config.php';
 
 $users = User::all();
-foreach ($users as $user)
-{
-    if($user->getAttribute('username') == $_POST[''])
-    {
-        if(password_verify($user->getAttribute('password'), $_POST['']))
-        {
-            echo 'Login succeeded';
+
+$uName = $_POST['brukernavn'];
+$uPass = $_POST['passord'];
+
+
+foreach ($users as $user) {
+    if($user->getAttribute('username') == $uName) {
+        if (password_verify($uPass, $user['password'])) {
+            $_SESSION["user"] = $uName;
+            header("Location: http://tek.westerdals.no/~morkai16");
         }
     }
 }
+echo "Login failed";
+
+?>
