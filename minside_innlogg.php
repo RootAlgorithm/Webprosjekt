@@ -21,6 +21,8 @@ require "includes/header.php";
         <input type="password" id="password" name="passord" placeholder="Passord...">
 
         <input type="submit" value="Submit">
+
+        <a href="minside_reg.php"><p>Ikke bruker? Klikk her!</p></a>
     </form>
 
 
