@@ -20,7 +20,7 @@ foreach ($users as $user) {
     if($user->getAttribute('username') == $uName) {
         if (password_verify($uPass, $user['password'])) {
             $_SESSION["user"] = $uName;
-            header("Location: http://tek.westerdals.no/~morkai16");
+            header("Location: http://tek.westerdals.no/~ritand16");
         }
     }
 }
