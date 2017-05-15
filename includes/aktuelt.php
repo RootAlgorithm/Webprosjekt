@@ -9,7 +9,7 @@
             <div class="aktuelt_menu_knapp">Restauranter</div>
         </div>
     </div>
-    <div class="super_holder">
+    <div class="super_holder_aktuelt">
         <div class="aktuelt_innhold">
             <div class="aktuelt_innhold_card">
                 <img class="aktuelt_innhold_card_bilde" src="Bilder/I_Naerheten/AktivitetBotaniskHage.png">

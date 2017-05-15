@@ -1,4 +1,4 @@
-<div class="super_holder">
+<div class="super_holder_header">
     <div class="header_body" xmlns="http://www.w3.org/1999/html">
         <a href="index.php"><img class="header_icon" src="Bilder/Symboler/LogoV3.png"></a>
         <div class="header_btn">
