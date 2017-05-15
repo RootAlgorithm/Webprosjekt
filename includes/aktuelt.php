@@ -1,6 +1,10 @@
 <div class="aktuelt">
     <div class="aktuelt_top_holder">
-        <img class="aktuelt_bilde" src="Bilder/Symboler/aktuelt.png">
+        <div class="aktuelt_header">
+            <div class="aktuelt_header_head"><h1>Aktuelt</h1></div>
+            <div class="aktuelt_header_skille"></div>
+            <div class="aktuelt_header_tekst"><p>Våre utvalgde for deg</p></div>
+        </div>
         <div class="aktuelt_menu">
             <div class="aktuelt_menu_knapp"><p>Alle kategorier</p></div>
             <div class="aktuelt_menu_knapp"><p>Rabatter</p></div>
