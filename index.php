@@ -54,6 +54,8 @@ require "includes/header_link.php";
 
         </div>
 
+        <div class="pusterom"></div>
+
         <?php
             require "includes/aktuelt.php";
         ?>

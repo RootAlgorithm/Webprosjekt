@@ -17,15 +17,20 @@ html p {
 .container * {
     overflow: hidden; }
 
-.super_holder{
+.super_holder_header{
     width: 100%;
+    opacity: 0.8;
     background-color: black;
+}
+
+.super_holder_aktuelt{
+    width: 100%;
+    background-color: #AAAAAA;
 }
 
 .header_body {
     height: 63px;
     width: 80%;
-    opacity: 0.8;
     margin: auto;}
 
 .header_body *{
@@ -178,9 +183,8 @@ input[type=sok]{
 
 .index_main_body_lesmer {
     margin: auto;
-    width: auto;
+    width: 80%;
     position: relative;
-    margin-bottom: 5%;
     text-align: center;}
 
 
@@ -289,18 +293,24 @@ input[type=sok]{
 }
 
 .aktuelt_innhold{
-    margin: 0;
-    background-color: #AAAAAA;
-    display: inline-block;
-    width: 100%;
+    margin: auto;
+    width: 80%;
+}
+
+.aktuelt_innhold_card:first-child{
+    margin-left: 0;
+}
+
+.aktuelt_innhold_card:last-child{
+    margin-right: 0;
 }
 
 .aktuelt_innhold_card{
     height: 300px;
-    width: 27%;
+    width: 30%;
     position: relative;
     float: left;
-    margin: 3%;
+    margin: 2.5%;
     overflow: hidden;
 }
 
@@ -426,6 +436,7 @@ input[type=sok]{
 .katsok{
     display: block;
     text-align: center;
+
 }
 
 .mc_hoved{
