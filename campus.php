@@ -20,10 +20,10 @@ require "includes/header.php";
             <div class="top_text">
                 <div class="top_text_head"><h3>Hva skjer på Campus</h3></div>
                 <div class="top_text_main"><p>Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit. Ad architecto consectetur
-                    cupiditate dolores in ipsam laboriosam, libero magni
-                    molestias, neque non officiis perferendis quas
-                    sapiente sed ut veniam. Animi, dolorem.</p></div>
+                        consectetur adipisicing elit. Ad architecto consectetur
+                        cupiditate dolores in ipsam laboriosam, libero magni
+                        molestias, neque non officiis perferendis quas
+                        sapiente sed ut veniam. Animi, dolorem.</p></div>
             </div>
         </div>
     </div>
