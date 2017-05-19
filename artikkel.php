@@ -20,7 +20,7 @@ require "includes/header_link.php";
         <img class="artikkel_bilde" src="Bilder/I_Naerheten/KonsertArrangement.jpg">
         <div class="artikkel_text">
             <div class="artikkel_text_head"><h1>Head</h1></div>
-            <div class="artikkel_text_tekst"><p>Tekst, super tekst</p></div>    
+            <div class="artikkel_text_tekst"><p>Tekst, super tekst</p></div>
             <div class="artikkel_text_dato"><p><b>Dato: </b>En eller annen dag</p></div>
             <div class="artikkel_text_sted"><p><b>Sted: </b>Et eller annet sted</p></div>
             <!--Endre eller ta bort hvis det ikke skal være med-->
