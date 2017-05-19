@@ -586,3 +586,23 @@ a:active {
     background-color: black;
     opacity: 0.4;
 }
+
+.artikkel_body{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.artikkel_bilde{
+    width: 45%;
+    float: left;
+}
+
+.artikkel_text{
+    width: 45%;
+    float: right;
+}
+
+.artikkel_text_sted{
+    bottom: 0;
+}
