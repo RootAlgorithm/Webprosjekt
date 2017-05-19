@@ -20,12 +20,12 @@ require "includes/header_link.php";
     <div class="artikkel_body">
         <hr class="linje_skift">
         <div class="artikkel_body_top">
-            <img class="artikkel_bilde" src="<?php echo $slide->getAttribute('artikkel_bilde') ?>">
+            <img class="artikkel_bilde" src="<?php echo $artikkel->getAttribute('artikkel_bilde') ?>">
             <div class="artikkel_text">
-                <div class="artikkel_text_head"><h1><?php echo $slide->getAttribute('artikkel_head') ?></h1></div>
-                <div class="artikkel_text_tekst"><p><?php echo $slide->getAttribute('artikkel_text') ?></p></div>
-                <div class="artikkel_text_dato"><p><b>Dato: </b><?php echo $slide->getAttribute('artikkel_dato') ?></p></div>
-                <div class="artikkel_text_sted"><p><b>Sted: </b><?php echo $slide->getAttribute('artikkel_sted') ?></p></div>
+                <div class="artikkel_text_head"><h1><?php echo $artikkel->getAttribute('artikkel_head') ?></h1></div>
+                <div class="artikkel_text_tekst"><p><?php echo $artikkel->getAttribute('artikkel_text') ?></p></div>
+                <div class="artikkel_text_dato"><p><b>Dato: </b><?php echo $artikkel->getAttribute('artikkel_dato') ?></p></div>
+                <div class="artikkel_text_sted"><p><b>Sted: </b><?php echo $artikkel->getAttribute('artikkel_sted') ?></p></div>
                 <!--Endre eller ta bort hvis det ikke skal være med-->
             </div>
         </div>
