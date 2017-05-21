@@ -4,18 +4,18 @@
 
     <div class="container">
         @if(!$slides->isEmpty())
-        @include('includes.slideshow')
+            @include('includes.slideshow')
         @endif
         <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Westerdals Infoside</div>
-
-                    <div class="panel-body">
-                        Under utvikling.
+            @foreach($posts as $post)
+                <div class="col-md-4">
+                    <div class="main-card rounded-card">
+                        <h2 class="text-center">{{ $post->title }}</h2>
+                        <p>{{ $post->body }}</p>
+                        <p>Postet i "{{ $post->category->name }}"</p>
                     </div>
                 </div>
-            </div>
+            @endforeach
         </div>
     </div>
 @endsection

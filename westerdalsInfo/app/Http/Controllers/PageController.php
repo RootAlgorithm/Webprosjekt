@@ -30,7 +30,8 @@ class PageController extends Controller
 
     public function getMain()
     {
+        $posts = Post::orderBy('updated_at', 'desc')->take(6)->get();
         $slides = Slide::all();
-        return view('main')->withSlides($slides);
+        return view('main')->withSlides($slides)->withPosts($posts);
     }
 }

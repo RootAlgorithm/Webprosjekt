@@ -70,4 +70,13 @@ html {
   width: 100%;
   color: #cbf5ff; }
 
+.rounded-card {
+  border-radius: 10px; }
+
+.main-card {
+  background-color: lightgray;
+  padding: 10px;
+  margin: 5px;
+  border: solid dimgray 2px; }
+
 /*# sourceMappingURL=styles.css.map */

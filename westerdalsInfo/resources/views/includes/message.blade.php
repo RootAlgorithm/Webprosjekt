@@ -4,6 +4,15 @@
             <strong>Suksess: </strong> {{ Session::get('success') }}
         </div>
     </div>
+
+@elseif(Session::has('criterror'))
+
+    <div class="container">
+        <div class="alert alert-danger" role="alert">
+            <strong>OVERJORDISK FEIL: </strong> {{ Session::get('criterror') }}
+        </div>
+    </div>
+
 @endif
 
 @if (count($errors) > 0)
