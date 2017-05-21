@@ -4,3 +4,6 @@ vendor/
 .idea/
 composer.json
 .idea
+westerdalsInfo/vendor/
+westerdalsInfo/.idea
+
