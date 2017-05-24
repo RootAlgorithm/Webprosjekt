@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Post;
 use App\Category;
+use App\Tag;
 use Session;
 
 class PostController extends Controller
@@ -38,7 +39,8 @@ class PostController extends Controller
     public function create()
     {
         $categories = Category::all();
-        return view('posts.create')->withCategories($categories);
+        $tags = Tag::all();
+        return view('posts.create')->withCategories($categories)->withTags($tags);
     }
 
     /**
@@ -66,6 +68,8 @@ class PostController extends Controller
         $post->body = $request->body;
 
         $post->save();
+
+        $post->tags()->sync($request->tags, false);
 
         Session::flash('success', 'Innlegget er publisert!');
 
@@ -100,7 +104,13 @@ class PostController extends Controller
         {
             $catArray[$category->id] = $category->name;
         }
-        return view('posts.edit')->withPost($post)->withCategories($catArray);
+        $tags = Tag::all();
+        $tagArray = array();
+        foreach ($tags as $tag)
+        {
+            $tagArray[$tag->id] = $tag->tag;
+        }
+        return view('posts.edit')->withPost($post)->withCategories($catArray)->withTags($tagArray);
     }
 
     /**
@@ -135,9 +145,16 @@ class PostController extends Controller
         //Storing in database
         $post->title = $request->input('title');
         $post->niceurl = $request->input('niceurl');
+        $post->category_id = $request->input('category_id');
         $post->body = $request->input('body');
 
         $post->save();
+
+        if(isset($request->tags)) {
+            $post->tags()->sync($request->tags);
+        } else {
+            $post->tags()->sync(array());
+        }
 
         Session::flash('success', 'Innlegget ble oppdatert!');
 

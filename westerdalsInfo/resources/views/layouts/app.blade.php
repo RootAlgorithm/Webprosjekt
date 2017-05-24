@@ -17,6 +17,8 @@
     {{ Html::style('css/slick.css') }}
     {{ Html::style('css/slick-theme.css') }}
 
+    @yield('stylesheets')
+
     <style>
         body {
             font-family: 'Raleway', sans-serif;
@@ -114,6 +116,8 @@
         crossorigin="anonymous"></script>
 {{ Html::script('js/slick.min.js') }}
 {{ Html::script('js/slideshow.js') }}
-{{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
+
+@yield('scripts')
+
 </body>
 </html>

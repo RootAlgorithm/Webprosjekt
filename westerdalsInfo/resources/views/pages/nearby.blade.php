@@ -12,8 +12,8 @@
                 </div>
                 <div class="col-md-6">
                     <h2>{{ $post->title }}</h2>
-                    <p>{{ $post->body }}</p>
-                    <p><b>#Dato: #</b>#</p>
+                    <span>{!! $post->body !!}</span>
+                    <p><b>Oppdatert: </b>{{ date( 'j M Y - H:i', strtotime($post->updated_at)) }}</p>
                     <p><b>#Sted: #</b>#</p>
                 </div>
 

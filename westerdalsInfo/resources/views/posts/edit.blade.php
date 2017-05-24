@@ -2,6 +2,21 @@
 
 @section('title', '- Rediger innlegg')
 
+@section('stylesheets')
+    {!! Html::style('css/select2.min.css') !!}
+
+    <script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=wk29dlbmgg1q2ithi9zs1xsk3izvyndzb72k5augc0d0q14i"></script>
+
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'link',
+            menubar: false
+        })
+    </script>
+
+@endsection
+
 @section('content')
 
     <div class="container">
@@ -19,6 +34,9 @@
 
                 {{ Form::label('category_id', 'Kategori:', array('class' => 'formSpaceTop')) }}
                 {{ Form::select('category_id', $categories, null, array('class' => 'form-control')) }}
+
+                {{ Form::label('tags', 'Tagger', array('class' => 'formSpaceTop')) }}
+                {{ Form::select('tags[]', $tags, null, array('class' => 'form-control select2-class', 'multiple' => 'multiple')) }}
 
                 {{ Form::label('body', 'Innhold:', array('class' => 'formSpaceTop')) }}
                 {{ Form::textarea('body', null, ['class' => 'form-control']) }}
@@ -52,5 +70,16 @@
             {!! Form::close() !!}
         </div>
     </div>
+
+@endsection
+
+@section('scripts')
+
+    {{ Html::script('js/select2.min.js') }}
+
+    <script type="text/javascript">
+        $('.select2-class').select2();
+        $('.select2-class').select2().val({!! json_encode($post->tags()->getRelatedIds()) !!}).trigger('change');
+    </script>
 
 @endsection

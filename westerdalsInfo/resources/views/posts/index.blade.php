@@ -20,7 +20,7 @@
                         <div class="panel-heading">
                             <h3 class="panel-title"> {{ $post->title }}</h3>
                         </div>
-                        <div class="panel-body">{{ str_limit($post->body, 200) }}</div>
+                        <div class="panel-body">{!! str_limit(strip_tags($post->body), 200) !!}</div>
 
                         <div class="panel-footer panel-footer-slim-right">{{ date( 'j M Y - H:i', strtotime($post->updated_at)) }}
                             <a href="{{ url('post/'.$post->niceurl) }}" class="btn-link">Les mer</a>
@@ -37,4 +37,4 @@
         </div>
     </div>
 
-@stop
+@endsection

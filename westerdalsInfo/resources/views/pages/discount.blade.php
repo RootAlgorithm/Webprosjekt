@@ -10,7 +10,7 @@
 
                 <div class="col-md-4">
                     <h2>{{ $post->title }}</h2>
-                    <p>{{ $post->body }}</p>
+                    <span>{!! $post->body !!}</span>
                 </div>
 
             @endforeach
