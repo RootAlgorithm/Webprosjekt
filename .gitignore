@@ -1,9 +1,0 @@
-# Created by .ignore support plugin (hsz.mobi)
-vendor/
-.gitignore
-.idea/
-composer.json
-.idea
-westerdalsInfo/vendor/
-westerdalsInfo/.idea
-
