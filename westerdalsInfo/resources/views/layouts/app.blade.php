@@ -86,6 +86,7 @@
                                     <a href="{{ route('posts.index') }}">Innlegg</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="{{ route('posts.create') }}">Opprett innlegg</a></li>
+                                        <li><a href="{{ route('tags.index') }}">Tagger</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="{{ route('users.index') }}">Brukere</a></li>
