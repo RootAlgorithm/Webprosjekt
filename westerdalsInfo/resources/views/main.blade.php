@@ -8,7 +8,7 @@
         @endif
         <div class="row">
             @foreach($posts as $post)
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="main-card rounded-card">
                         <h2 class="text-center">{{ $post->title }}</h2>
                         <p>{{ $post->body }}</p>
