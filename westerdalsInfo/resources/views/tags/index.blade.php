@@ -13,6 +13,7 @@
                     <tr>
                         <th>#</th>
                         <th>Navn:</th>
+                        <th></th>
                     </tr>
                     </thead>
                     <tbody>
@@ -20,6 +21,15 @@
                         <tr>
                             <th>{{ $tag->id }}</th>
                             <td>{{ $tag->tag }}</td>
+                            <td>
+                                <div class="right">
+                                    {!! Form::open(array('route' => array('tags.destroy', $tag->id), 'method' => 'DELETE')) !!}
+
+                                    {!! Form::submit('Slett tag', array('class' => 'btn btn-danger')) !!}
+
+                                    {!! Form::close() !!}
+                                </div>
+                            </td>
                         </tr>
                     @endforeach
                     </tbody>

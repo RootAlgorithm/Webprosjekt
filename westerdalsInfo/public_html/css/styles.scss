@@ -13,6 +13,7 @@ html {
 .nav-header-override {
     background-color: black;
     opacity: 0.8;
+    margin-bottom: 0;
 }
 
 .image-header {
@@ -116,4 +117,9 @@ html {
     padding: 10px;
     margin: 5px;
     border: solid dimgray 2px;
+}
+
+.main-links-btn {
+    width: 50%;
+    margin: auto;
 }
