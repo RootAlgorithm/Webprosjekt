@@ -1,0 +1,608 @@
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+html body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; }
+html p {
+    font-family: "Raleway", sans-serif; }
+
+h3, h1{
+    font-family: "Raleway", sans-serif;
+}
+
+h3{
+    color: #62AFCB;
+}
+
+.container {
+    min-height: 100%;
+    position: relative; }
+
+.container * {
+    overflow: hidden; }
+
+.super_holder_header{
+    width: 100%;
+    opacity: 0.8;
+    background-color: black;
+}
+
+.super_holder_aktuelt{
+    width: 100%;
+    background-color: #AAAAAA;
+}
+
+.header_body {
+    height: 63px;
+    width: 80%;
+    margin: auto;}
+
+.header_body *{
+    text-align: center;
+}
+
+.header_icon {
+    height: 50px;
+    margin: 6.5px;
+    width: auto;
+    float: left; }
+
+.header_btn {
+    float: right;
+    height: 100%;
+    width: 60%; }
+
+.header_btn_ting {
+    float: right;
+    width: 20%;
+    height: 100%;
+    color: #62AFCB;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.1em;
+}
+
+.label{
+    font-family: "Raleway", sans-serif;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+}
+
+input[type=header] {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif; }
+input[type=header]:hover {
+    background-color: #2e2e2e; }
+
+input[type=lesmercard] {
+    width: 100px;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif; }
+input[type=lesmercard]:hover {
+    background-color: #2e2e2e; }
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+input[type=sok]{
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+.minside_schema{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 40%;
+    position: fixed;
+    top: 140px;
+}
+
+.index_main_body {
+    width: 100%;
+    height: auto; }
+
+.index_main_body_top {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 5%;}
+
+.index_main_body_top * {
+    text-align: center;
+}
+
+.index_main_body_top_img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%; }
+
+.index_main_body_top_text {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: absolute;
+    top: 270px;
+    width: 100%;
+    z-index: 100;
+}
+
+.index_main_body_top_textH{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    z-index: 100;
+}
+
+.span_text {
+    background: black;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px;
+    display: inline-block; }
+
+.index_main_body_lesmer {
+    margin: auto;
+    width: 80%;
+    position: relative;
+    text-align: center;}
+
+
+
+.index_main_body_lesmercard {
+    min-width: 15%;
+    max-width: 20%;
+    position: relative;
+    display: inline-block;
+    text-align: center;}
+
+* {
+    box-sizing: border-box; }
+
+.slideshowContainer {
+    max-width: 1000px;
+    position: relative;
+    margin: auto; }
+
+.slide {
+    display: none; }
+
+.slidertext {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    color: white; }
+
+.previousSlide, .nextSlide {
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0; }
+
+.nextSlide {
+    right: 0;
+    border-radius: 3px 0 0 3px; }
+
+.previousSlide{
+    left: 0;
+}
+
+.fadeout {
+    -webkit-animation-name: fadeout;
+    animation-name: fadeout;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s; }
+
+@-webkit-keyframes fadeout {
+    from {
+        opacity: 0.4; }
+    to {
+        opacity: 1; } }
+@keyframes fadeout {
+    from {
+        opacity: 0.4; }
+    to {
+        opacity: 1; } }
+
+/*# sourceMappingURL=styles.css.map */
+
+#index_main_slideholder_button{
+    position: absolute;
+    width: 100%;
+    top:50%;
+}
+
+.minside_bilde{
+    height: 100%;
+    width: 100%;
+    top:0;
+    position: fixed;
+}
+
+.aktuelt{
+    width: 100%;
+    height: 450px;
+    margin: auto;
+}
+
+.aktuelt_menu{
+    margin: 0;
+    left:0;
+    height: auto;
+}
+
+.aktuelt_menu_knapp{
+    background-color: #62AFCB;
+    height: auto;
+    width: auto;
+    margin: 2px;
+    margin-bottom: 0;
+    position: relative;
+    float: left;
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.aktuelt_innhold{
+    margin: auto;
+    width: 80%;
+}
+
+.aktuelt_innhold_card:first-child{
+    margin-left: 0;
+}
+
+.aktuelt_innhold_card:last-child{
+    margin-right: 0;
+}
+
+.aktuelt_innhold_card{
+    height: 300px;
+    width: 30%;
+    position: relative;
+    float: left;
+    margin: 2.5%;
+    overflow: hidden;
+}
+
+.aktuelt_bilde{
+    left:0;
+    text-align: left;
+}
+
+.aktuelt_top_holder{
+    width: 80%;
+    margin: auto;
+    height: 160px;
+}
+
+.aktuelt_innhold_card_bilde{
+    height: 250px;
+    position: absolute;
+}
+
+.aktuelt_innhold_card_head{
+    position: absolute;
+    top: 40px;
+    background-color: #62AFCB;
+    padding: 2px;
+}
+
+.aktuelt_innhold_card_text{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+}
+
+.campus_top_holder{
+
+    background-color: #2e2f2f;
+}
+
+.campus_top{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+}
+
+.campus_top_bilde{
+    position: relative;
+    height: 290px;
+    width: auto;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.top_text{
+    width: 30%;
+    height: auto;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+}
+
+.top_text_head{
+    color: #00AFED;
+}
+
+.top_text_main{
+    color: white;
+}
+
+.pusterom{
+    width: 100%;
+    height: 100px;
+}
+
+.katsok_btn{
+    background-color: #62AFCB;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.katsok_dropdown{
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.katsok_dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.katsok_dropdown_content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.katsok_dropdown_content a:hover{
+    background-color: #f1f1f1;
+}
+
+.katsok_dropdown:hover .katsok_dropdown_content{
+    display: block;
+}
+
+.katsok_dropdown:hover .katsok_btn{
+    background-color: #00a2ed;
+}
+
+.katsok_sok{
+    position: relative;
+    display: inline-block;
+}
+
+.katsok{
+    margin: 0 auto;
+    display: table;
+}
+
+.mc_hoved{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.linje_skift{
+    width: 100%;
+}
+
+.mc_innhold{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    float: left;
+    margin: 3%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.mc_card_bilde{
+    height: 250px;
+    position: absolute;
+}
+
+.mc_card_head{
+    position: absolute;
+    top: 40px;
+    background-color: aqua;
+    padding: 2px;
+}
+
+.mc_card_text{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+}
+
+.mc_hover{
+    opacity: 0.7;
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    top: 150px;
+}
+
+.mc_innhold:hover .mc_hover{
+    display: block;
+}
+
+.minside_hoved{
+    width: 40%;
+    margin: auto;
+    height: auto;
+}
+
+h1{
+    font-family: "Raleway", sans-serif;
+}
+
+.minside_ommeg_text{
+    min-height: 200px;
+    width: auto;
+    border: 1px solid lightskyblue;
+}
+
+.minside_tags_text{
+    min-height: 200px;
+    width: auto;
+    border: 1px solid lightskyblue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.aktuelt_header{
+    display: inline-block;
+}
+
+.aktuelt_header_head{
+
+    color: #666666;
+    position: relative;
+    float: left;
+    font-weight: 100;
+}
+.aktuelt_header_skille{
+    top: 15px;
+    margin: 4px;
+    height: 40px;
+    background-color: #62AFCB;
+    width: 2px;
+    position: relative;
+    float: left;
+}
+.aktuelt_header_tekst{
+    top: 15px;
+    position: relative;
+    color: #62AFCB;
+    float: left;
+}
+
+.index_main_body_cover_image{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.artikkel_body{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.artikkel_bilde{
+    width: 45%;
+    float: left;
+}
+
+.artikkel_text{
+    width: 45%;
+    float: right;
+}
+
+.artikkel_text_sted{
+    bottom: 0;
+}

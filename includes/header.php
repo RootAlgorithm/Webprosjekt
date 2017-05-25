@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="stylesheet" type="text/css" href="includes/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="includes/css/styles1.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 

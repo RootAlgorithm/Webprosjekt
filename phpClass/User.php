@@ -15,7 +15,7 @@ class User extends Eloquent
         'password',
         'first-name',
         'last-name',
-        'admin'
+        'email'
     ];
     public $timestamps = false;
 }
