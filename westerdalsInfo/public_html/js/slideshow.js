@@ -4,6 +4,8 @@ $(document).ready(function(){
         fade: true,
         dots: true,
         slidesToShow: 1,
-        slidesToScoll: 1
+        slidesToScoll: 1,
+        autoplay: true,
+        arrows: false
 });
 });

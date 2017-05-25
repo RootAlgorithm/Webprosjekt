@@ -90,6 +90,13 @@ class TagController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $tag = Tag::find($id);
+
+        $tag->delete();
+
+        Session::flash('success', 'Taggen ble slettet!');
+
+        return redirect()->route('tags.index');
+
     }
 }

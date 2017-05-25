@@ -63,11 +63,11 @@
 
             <!-- Right Side Of Navbar -->
             <ul class="nav navbar-nav navbar-right">
+                <li {{ (Request::is('discount') ? 'class=active' : '') }}><a href="{{ url('/discount') }}">Rabatter</a>
+                </li>
                 <li {{ (Request::is('nearby') ? 'class=active' : '') }}><a href="{{ url('/nearby') }}">I nærheten</a>
                 </li>
                 <li {{ (Request::is('campus') ? 'class=active' : '') }}><a href="{{ url('/campus') }}">På campus</a>
-                </li>
-                <li {{ (Request::is('discount') ? 'class=active' : '') }}><a href="{{ url('/discount') }}">Rabatter</a>
                 </li>
             {{--@if (Auth::guest() == false)
                 <li {{ (Request::is('home') ? 'class=active' : '') }}><a href="{{ url('/home') }}">Min side</a></li>

@@ -2,28 +2,25 @@
 
 @section('content')
 
-    <div class="container">
-        @if(!$slides->isEmpty())
-            @include('includes.slideshow')
-        @endif
+    <div class="container-fluid">
         <div class="row">
-            @foreach($posts as $post)
-                <div class="col-md-6">
-                    <div class="main-card rounded-card">
-                        <h2 class="text-center">{{ $post->title }}</h2>
-                        <span>{!! $post->body !!}</span>
-                        <hr>
-                        <p>Postet i "{{ $post->category->name }}"</p>
-                        @if(!$post->tags->isEmpty())
-                            <p>Tags:
-                                @foreach($post->tags as $tag)
-                                    {{ $tag->tag }}
-                                @endforeach
-                            </p>
-                        @endif
-                    </div>
-                </div>
-            @endforeach
+            @if(!$slides->isEmpty())
+                @include('includes.slideshow')
+            @endif
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            @include('includes.main-links')
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h2 class="text-center">Aktuelt!</h2>
+            </div>
+        </div>
+        <div class="row">
+            @include('includes.current')
         </div>
     </div>
 @endsection
