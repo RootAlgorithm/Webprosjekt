@@ -29,7 +29,7 @@
     <div>
         {{ Html::image('img/minside.png', '', array('class' => 'center-block img-responsive', 'style' => 'width: 50%')) }}
         <h4 class="text-center">Min side</h4>
-        <p class="text-center">Legg til dine interesser og få innhold basert på dette.</p>
+        <p class="text-center">Legg til dine interesser og få innhold basert på dette.<br><br><br></p>
         <a class="btn btn-info btn-block main-links-btn" href="{{ url('/home') }}">Les mer her</a>
     </div>
 </div>
