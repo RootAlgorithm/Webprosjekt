@@ -69,7 +69,9 @@ class PostController extends Controller
 
         $post->save();
 
-        $post->tags()->sync($request->tags, false);
+        if(isset($request->tags)) {
+            $post->tags()->sync($request->tags, false);
+        }
 
         Session::flash('success', 'Innlegget er publisert!');
 

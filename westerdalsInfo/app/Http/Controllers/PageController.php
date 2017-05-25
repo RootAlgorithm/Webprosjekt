@@ -31,7 +31,14 @@ class PageController extends Controller
     public function getMain()
     {
         $posts = Post::orderBy('updated_at', 'desc')->take(6)->get();
+        $postarray = array();
+        $i = 0;
+        foreach ($posts as $post)
+        {
+            $postarray[$i] = $post;
+            $i++;
+        }
         $slides = Slide::all();
-        return view('main')->withSlides($slides)->withPosts($posts);
+        return view('main')->withSlides($slides)->withPosts($postarray);
     }
 }

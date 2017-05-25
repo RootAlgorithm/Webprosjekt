@@ -5,10 +5,18 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
-use use App\UserDetails;
+use App\User;
+use App\UserDetails;
+use Illuminate\Support\Facades\Auth;
 
 class UserInfo extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -16,7 +24,14 @@ class UserInfo extends Controller
      */
     public function index()
     {
-        $userId = //use User, fortsett herifra!
+        $user = Auth::user();
+        $userDetails = UserDetails::where('user_id', '=', $user->id)->first();
+
+        if(isset($userDetails)) {
+            return view('details.index')->withUser($user)->withDetails($userDetails);
+        } else {
+            return view('details.index')->withUser($user);
+        }
     }
 
     /**

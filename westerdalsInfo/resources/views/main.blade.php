@@ -19,8 +19,6 @@
                 <h2 class="text-center">Aktuelt!</h2>
             </div>
         </div>
-        <div class="row">
-            @include('includes.current')
-        </div>
+        @include('includes.current')
     </div>
 @endsection

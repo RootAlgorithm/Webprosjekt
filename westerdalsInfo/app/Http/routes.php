@@ -34,3 +34,5 @@ Route::get('discount', 'PageController@getDiscount');
 Route::resource('users', 'UserController', ['except' => ['create', 'store', 'show', 'destroy']]);
 
 Route::resource('tags', 'TagController', ['except' => ['create']]);
+
+Route::resource('userinfo', 'UserInfo', ['except' => ['create', 'show', 'destroy']]);
