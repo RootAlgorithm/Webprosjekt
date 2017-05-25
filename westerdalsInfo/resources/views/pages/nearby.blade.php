@@ -14,7 +14,7 @@
                     <h2>{{ $post->title }}</h2>
                     <span>{!! $post->body !!}</span>
                     <p><b>Oppdatert: </b>{{ date( 'j M Y - H:i', strtotime($post->updated_at)) }}</p>
-                    <p><b>#Sted: #</b>#</p>
+                    <p><b>Sted: </b>#</p>
                 </div>
 
             @endforeach
