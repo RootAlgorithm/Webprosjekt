@@ -4,25 +4,23 @@
 
 @section('content')
 
-    <div class="helt_aktuelt">
-        <div class="helt_aktuelt_head">
-            <h1>Aktuelt</h1>
+    <div class="extended_header">
+        <div class="col-md-6">
+            <img src="#">
         </div>
-        <div class="helt_aktuelt_body">
-            @for($i = 0; $i < 3; $i++)
-                <div class="div-md-4">
-                    <div class="hoved-kort">
-                        <img class="kort-bilde" src="#">
-                        <span class="kort-tekst">{!! $post->body !!}</span>
-                        <p class="kort-tekst"><b>Oppdatert: </b>{{ date( 'j M Y - H:i', strtotime($post->updated_at)) }}</p>
-                    </div>
-                    <div class="under-kort">
-                        <h2>{{ $post->title }}</h2>
-                    </div>
-                </div>
-            @endfor
+        <div class="col-md-6">
+            <h1>Header</h1>
+            <p>Leter du etter en ekstrajobb mens du studerer eller vil du bare vite
+                om det noe som skjer i studentbaren?
+                </br>
+                Her vil du (om du har registrert en bruker) få anbefalte
+                arrangementer, Stillinger eller foreninger spesielt rettet mot deg!
+                </br>
+                Skjer det noe på Campus er dette plassen du får vite det!</p>
         </div>
     </div>
+
+    @include('includes.current')
 
     <div class="container">
         <div class="row">

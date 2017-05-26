@@ -162,6 +162,24 @@ html {
     position: relative;
 }
 
+.hoved-kort {
+    &:hover {
+        .kort-tekst {
+            display: block;
+        }
+    }
+}
+
+    .hoved-kort {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .kort-bilde {
+        position: absolute;
+    }
+
 .hoved-kort:hover {
     .kort-tekst {
         display: block;
@@ -180,4 +198,5 @@ html {
 
 .navbar-static-top {
     border-width: 0 0 0px;
+
 }
