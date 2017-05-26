@@ -2,7 +2,12 @@
     @foreach($slides as $slide)
         <div>
             {{ Html::image($slide->img) }}
-            <p class="slideshow-text">{{ $slide->body }}</p>
+            <h1 class="slideshow-text">Velkommen til Westerdals Studentinfo</h1>
+            <div class="slideshow-subtesxt">
+                <p>Her finner du informajson relatert til studenter hos</p>
+                <p>Westerdals vec Campus Fjerdingen. Du vil finne flotte</p>
+                <p>rabatter, tips, arrangementer</p>
+            </div>
         </div>
     @endforeach
 </div>
