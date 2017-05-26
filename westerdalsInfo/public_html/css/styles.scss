@@ -132,14 +132,11 @@ html {
     height: 300px;
 }
 
-<<<<<<< HEAD
-=======
 .discount-card {
     border: solid deepskyblue 1px;
     padding: 10px;
 }
 
->>>>>>> c43e15b1899b3246daf2828789b2d8341e5877d1
 .helt_aktuelt {
     width: 100%;
     height: auto;
@@ -165,7 +162,6 @@ html {
     position: relative;
 }
 
-<<<<<<< HEAD
 .hoved-kort {
     &:hover {
         .kort-tekst {
@@ -183,7 +179,7 @@ html {
     .kort-bilde {
         position: absolute;
     }
-=======
+
 .hoved-kort:hover {
     .kort-tekst {
         display: block;
@@ -198,5 +194,4 @@ html {
 
 .kort-bilde {
     position: absolute;
->>>>>>> c43e15b1899b3246daf2828789b2d8341e5877d1
 }
