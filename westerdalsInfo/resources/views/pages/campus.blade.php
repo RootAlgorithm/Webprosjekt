@@ -20,8 +20,6 @@
         </div>
     </div>
 
-    @include('includes.current')
-
     <div class="container">
         <div class="row">
             @foreach($posts as $post)
