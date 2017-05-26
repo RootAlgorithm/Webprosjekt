@@ -25,7 +25,7 @@
                 <h2>Skriv nytt innlegg</h2>
                 <hr>
 
-                {!! Form::open(['route' => 'posts.store']) !!}
+                {!! Form::open(['route' => 'posts.store', 'files' => true]) !!}
                 {{ Form::label('title', 'Tittel:', array('style' => 'margin-top: 10px;')) }}
                 {{ Form::text('title', null, array('class' => 'form-control')) }}
 
@@ -49,6 +49,9 @@
                     @endforeach
 
                 </select>
+
+                {{ Form::label('img', 'Last opp bilde:') }}
+                {{ Form::file('img') }}
 
                 {{ Form::label('body', 'Innhold:', array('class' => 'formSpaceTop')) }}
                 {{ Form::textarea('body', null, array('class' => 'form-control')) }}

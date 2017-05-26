@@ -10,6 +10,7 @@ use App\Post;
 use App\Category;
 use App\Tag;
 use Session;
+use Image;
 
 class PostController extends Controller
 {
@@ -66,6 +67,15 @@ class PostController extends Controller
         $post->niceurl = $request->niceurl;
         $post->category_id = $request->category_id;
         $post->body = $request->body;
+
+        if($request->hasFile('img')) {
+            $img = $request->file('img');
+            $imgname = time() . '.' . $img->getClientOriginalExtension();
+            $location = public_path('img/' . $imgname);
+            Image::make($img)->save($location);
+
+            $post->img = $imgname;
+        }
 
         $post->save();
 
