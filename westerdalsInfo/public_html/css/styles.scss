@@ -126,7 +126,7 @@ html {
     margin: auto;
 }
 
-.extended_header{
+.extended_header {
     color: white;
     background-color: #343434;
     height: 300px;
@@ -135,4 +135,45 @@ html {
 .discount-card {
     border: solid deepskyblue 1px;
     padding: 10px;
+}
+
+.helt_aktuelt {
+    width: 100%;
+    height: auto;
+
+    .helt_aktuelt_head {
+        width: 80%;
+        margin: auto;
+        height: auto;
+    }
+
+    .helt_aktuelt_body {
+        width: 100%;
+        height: 300px;
+        background-color: #f2f2f2;
+    }
+}
+
+.kort-tekst {
+    display: none;
+    opacity: 0.7;
+    background-color: #000000;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.hoved-kort:hover {
+    .kort-tekst {
+        display: block;
+    }
+}
+
+.hoved-kort {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.kort-bilde {
+    position: absolute;
 }
