@@ -142,7 +142,10 @@ html {
   border-width: 0 0 0px; }
 
 .subpage-image-header {
-  height: auto;
-  width: auto; }
+  height: 300px;
+  width: 100%; }
+
+.white-text {
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=styles.css.map */
