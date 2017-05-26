@@ -60,16 +60,19 @@ html {
 .formSpaceTop {
   margin-top: 30px; }
 
-.slideshow-container img {
+.slideshow-container {
   height: 500px;
-  width: 100%; }
-.slideshow-container p {
-  position: absolute;
-  font-size: 24px;
-  text-align: center;
-  bottom: 40px;
-  width: 100%;
-  color: #cbf5ff; }
+  overflow: hidden; }
+  .slideshow-container img {
+    width: 100%;
+    align-items: center; }
+  .slideshow-container p {
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    top: 250px;
+    width: 100%;
+    color: #cbf5ff; }
 
 .rounded-card {
   border-radius: 10px; }
