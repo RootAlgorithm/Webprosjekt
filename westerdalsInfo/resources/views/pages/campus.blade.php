@@ -4,9 +4,9 @@
 
 @section('content')
 
-    <div class="extended_header">
+    <div class="container-fluid extended_header">
         <div class="col-md-6">
-            <img src="#">
+            {{ Html::image('img/CampusHeader.JPG', '', array('class' => 'img-responsive subpage-image-header')) }}
         </div>
         <div class="col-md-6">
             <h1>Header</h1>
@@ -19,8 +19,6 @@
                 Skjer det noe på Campus er dette plassen du får vite det!</p>
         </div>
     </div>
-
-    @include('includes.current')
 
     <div class="container">
         <div class="row">
