@@ -92,6 +92,10 @@ html {
   background-color: #343434;
   height: 300px; }
 
+.discount-card {
+  border: solid deepskyblue 1px;
+  padding: 10px; }
+
 .helt_aktuelt {
   width: 100%;
   height: auto; }

@@ -17,7 +17,11 @@
 
 Route::get('/', 'PageController@getMain');
 
-Route::auth();
+//Route::auth();
+
+Auth::routes();
+
+Route::get('/logout', 'Auth\LoginController@logout');
 
 Route::get('/home', 'HomeController@index');
 
