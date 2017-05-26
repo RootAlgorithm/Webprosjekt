@@ -12,7 +12,7 @@
             @for($i = 0; $i < 3; $i++)
                 <div class="div-md-4">
                     <div class="hoved-kort">
-                        <img class="hoved-bilde" src="#">
+                        <img class="kort-bilde" src="#">
                         <span class="kort-tekst">{!! $post->body !!}</span>
                         <p class="kort-tekst"><b>Oppdatert: </b>{{ date( 'j M Y - H:i', strtotime($post->updated_at)) }}</p>
                     </div>
