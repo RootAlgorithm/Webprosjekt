@@ -119,6 +119,8 @@ html {
   display: block; }
 
 .hoved-kort {
+<<<<<<< HEAD
+=======
   width: 100%;
   height: 100%;
   overflow: hidden; }
@@ -130,11 +132,29 @@ html {
   display: block; }
 
 .hoved-kort {
+>>>>>>> c926b0faa53b6a0f21a2bb96b8c5e50050a1e177
   width: 100%;
   height: 100%;
   overflow: hidden; }
 
 .kort-bilde {
+<<<<<<< HEAD
   position: absolute; }
+
+.hoved-kort:hover .kort-tekst {
+  display: block; }
+
+.hoved-kort {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.kort-bilde {
+=======
+>>>>>>> c926b0faa53b6a0f21a2bb96b8c5e50050a1e177
+  position: absolute; }
+
+.navbar-static-top {
+  border-width: 0 0 0px; }
 
 /*# sourceMappingURL=styles.css.map */
