@@ -20,6 +20,8 @@
         </div>
     </div>
 
+    @include('includes.current')
+
     <div class="container">
 
         <div class="row">
