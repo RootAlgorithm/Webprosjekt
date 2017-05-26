@@ -2,7 +2,7 @@
     <div>
         {{ Html::image('img/rabatt.png', '', array('class' => 'center-block img-responsive', 'style' => 'width: 50%')) }}
         <h4 class="text-center">Rabatter</h4>
-        <p class="text-center">Her kan du se flotte rabatter basert på dine interesser. Vi oppdaterer hele tiden med nye rabatter!</p>
+        <p class="text-center">Her kan du se flotte rabatter basert på dine interesser. Vi oppdaterer hele tiden med nye rabatter!<br><br></p>
         <a class="btn btn-info btn-block main-links-btn" href="{{ url('/discount') }}">Les mer her</a>
     </div>
 </div>
@@ -11,7 +11,7 @@
     <div>
         {{ Html::image('img/geotag.png', '', array('class' => 'center-block img-responsive', 'style' => 'width: 50%')) }}
         <h4 class="text-center">I nærheten</h4>
-        <p class="text-center">Se hva som er og skjer i nærheten, du finner alltid noe som er er interessant for akkurat deg.</p>
+        <p class="text-center">Se hva som er og skjer i nærheten, du finner alltid noe som er er interessant for akkurat deg.<br><br></p>
         <a class="btn btn-info btn-block main-links-btn" href="{{ url('/nearby') }}">Les mer her</a>
     </div>
 </div>
