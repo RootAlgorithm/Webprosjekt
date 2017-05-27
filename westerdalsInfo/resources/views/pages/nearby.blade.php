@@ -10,14 +10,16 @@
                 {{ Html::image('img/NearbyHeader.jpg', '', array('class' => 'img-responsive subpage-image-header')) }}
             </div>
             <div class="col-md-6">
-                <h1 class="white-text">Header</h1>
-                <p class="white-text">Leter du etter en ekstrajobb mens du studerer eller vil du bare vite
-                    om det noe som skjer i studentbaren?
-                    </br>
-                    Her vil du (om du har registrert en bruker) få anbefalte
-                    arrangementer, Stillinger eller foreninger spesielt rettet mot deg!
-                    </br>
-                    Skjer det noe på Campus er dette plassen du får vite det!</p>
+                <h1 class="white-text">I Nærheten</h1>
+                <p class="white-text">Ønsker du å finne ut hva som skjer i nærheten,
+                    eller ønsker du bare å vite om det finnes noen studentvennlige
+                    restauranter i nærheten?
+                    <br><br>
+                    Her vil du finne dette og mye mer!
+                    <br><br>
+                    Med en bruker hos oss vil du kunne få anbefalinger spesielt for deg.
+                    Ellers har du selvfølgelig mulighet til å se blant de utallige
+                    anbefalingene våre.</p>
             </div>
         </div>
     </div>

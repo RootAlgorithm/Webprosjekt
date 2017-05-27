@@ -27,7 +27,7 @@ Route::get('/home', 'HomeController@index');
 
 Route::resource('posts', 'PostController');
 
-Route::get('post/{niceurl}', ['uses' => 'PostController@getSingle', 'as' => 'posts.single'])->where('niceurl', '[\w\d\-\_]+');
+Route::get('post/{niceurl}', ['uses' => 'PostController@getSingle', 'as' => 'posts.single']);
 
 Route::get('nearby', 'PageController@getNearby');
 

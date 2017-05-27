@@ -66,13 +66,21 @@ html {
   .slideshow-container img {
     width: 100%;
     align-items: center; }
-  .slideshow-container p {
+  .slideshow-container h1 {
     position: absolute;
-    font-size: 24px;
+    font-size: 48px;
     text-align: center;
     top: 250px;
     width: 100%;
-    color: #cbf5ff; }
+    color: white; }
+  .slideshow-container .slideshow-subtext {
+    width: 400px;
+    margin: auto;
+    left: 200px;
+    position: absolute;
+    font-size: 22px;
+    text-align: center;
+    top: 250px; }
 
 .rounded-card {
   border-radius: 10px; }
