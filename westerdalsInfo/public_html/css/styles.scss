@@ -108,6 +108,16 @@ html {
         width: 100%;
         color: white;
     }
+
+    .slideshow-subtext {
+        width: 400px;
+        margin: auto;
+        left: 200px;
+        position: absolute;
+        font-size: 22px;
+        text-align: center;
+        top: 250px;
+    }
 }
 
 .rounded-card {
@@ -209,3 +219,4 @@ html {
 .white-text{
     color: #FFFFFF;
 }
+
