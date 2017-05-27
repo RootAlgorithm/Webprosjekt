@@ -148,4 +148,25 @@ html {
 .white-text {
   color: #FFFFFF; }
 
+.subpage-image-card {
+  width: 100%;
+  height: 200px; }
+
+.text-holder-plain {
+  color: #FFFFFF;
+  display: none; }
+
+.text-holder {
+  background-color: #FFFFFF;
+  min-height: 200px;
+  width: 100%;
+  padding: 10px; }
+
+.col-md-4:hover .subpage-image-card {
+  display: none; }
+.col-md-4:hover .text-holder-plain {
+  display: block; }
+.col-md-4:hover .text-holder {
+  background-color: #000000; }
+
 /*# sourceMappingURL=styles.css.map */

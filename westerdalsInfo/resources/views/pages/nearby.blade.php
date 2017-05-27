@@ -22,14 +22,17 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container formSpaceTop">
 
         <div class="row">
             @foreach($posts as $post)
                 <div class="col-md-4">
+                    <div class="text-holder">
+                        <span class="text-holder-plain">{!! $post->body !!}</span>
+                        <p class="text-holder-plain"><b>Oppdatert: </b>{{ date( 'j M Y - H:i', strtotime($post->updated_at)) }}</p>
+                        {{ Html::image('img/NearbyHeader.jpg', '', array('class' => 'img-responsive subpage-image-card')) }}
+                    </div>
                     <h2>{{ $post->title }}</h2>
-                    <span>{!! $post->body !!}</span>
-                    <p><b>Oppdatert: </b>{{ date( 'j M Y - H:i', strtotime($post->updated_at)) }}</p>
                 </div>
 
             @endforeach
