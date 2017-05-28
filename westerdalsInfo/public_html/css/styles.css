@@ -165,6 +165,8 @@ html {
 .text-holder-plain {
   color: #FFFFFF;
   display: none; }
+  .text-holder-plain p {
+    color: #FFFFFF; }
 
 .text-holder {
   background-color: #FFFFFF;
