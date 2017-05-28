@@ -13,7 +13,7 @@
                     <h2>{{ $user->name }}</h2>
                     <p>Du er logget inn!</p>
                     <p>Her kommer min side!</p>
-                    <a href="{{ route('userinfo.index') }}" class="btn btn-info">Detaljer</a>
+                    {{--<a href="{{ route('userinfo.index') }}" class="btn btn-info">Detaljer</a>--}}
                 </div>
             </div>
         </div>
