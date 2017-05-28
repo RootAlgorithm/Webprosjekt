@@ -104,19 +104,21 @@ html {
         position: absolute;
         font-size: 48px;
         text-align: center;
-        top: 250px;
+        top: 130px;
         width: 100%;
         color: white;
+        background-color: rgba(0, 0, 0, 0.3);
     }
 
     .slideshow-subtext {
         width: 400px;
         margin: auto;
-        left: 200px;
+        left: 35%;
         position: absolute;
         font-size: 22px;
         text-align: center;
         top: 250px;
+        background-color: rgba(255, 255, 255, 0.6);
     }
 }
 
@@ -220,7 +222,6 @@ html {
     color: #FFFFFF;
 }
 
-<<<<<<< HEAD
 .subpage-image-card {
     width: 100%;
     height: 200px;
@@ -253,5 +254,3 @@ html {
         }
     }
 }
-=======
->>>>>>> e0cd67c47dce76c33a00e75f1b598f1ec912324f

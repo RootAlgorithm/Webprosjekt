@@ -18,6 +18,7 @@
         </div>
     @endfor
 </div>
+<hr>
 <div class="row">
     @for($i = 3; $i < 6; $i++)
         <div class="col-md-4">
